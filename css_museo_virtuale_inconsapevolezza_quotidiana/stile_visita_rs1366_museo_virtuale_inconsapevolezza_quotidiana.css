@@ -1,0 +1,710 @@
+@import url("http://mvinconsapevolezzaquotidiana.org/css_museo_virtuale_inconsapevolezza_quotidiana/normalize_museo_virtuale_inconsapevolezza_quotidiana.css");
+@import url("http://mvinconsapevolezzaquotidiana.org/css_museo_virtuale_inconsapevolezza_quotidiana/main_museo_virtuale_inconsapevolezza_quotidiana.css");
+
+
+/*-------------------OFFLIMITS*/
+
+
+@media only screen and (max-height: 700px) {
+    /* Style adjustments for viewports that meet the condition */
+#index_logo{ 
+	width:300px; 
+	height:300px; 
+	margin:0 0 0 0;
+}
+
+}
+
+ .nascondi1366{
+	 display:none;
+	 }  
+
+
+#menu_visita{color:#ff5000 !important;}
+body{background-color:#eee;}
+
+#relazioni{ 
+	width:40%; 
+	height:100%;
+	top:53%;
+	left:0;
+	margin:-340px 0 0 0;
+	}
+
+.sfondo_relazioni1{
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_sfondo1_mvin.png) no-repeat top left;
+}
+	
+.sfondo_relazioni2{
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_sfondo2_mvin.png) no-repeat top left;
+}
+	
+.sfondo_relazioni3{
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_sfondo3_mvin.png) no-repeat top left;
+}
+
+.sfondo_relazioni4{
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_sfondo4_mvin.png) no-repeat top left;
+}
+	
+/* ==========================================================================
+   Layout parte sinistra - indicazioni generali
+   ========================================================================== */
+
+#visita_palla_mangiare, #visita_palla_individuo, #visita_palla_societa, #visita_palla_territorio, #visita_palla_cibo, #visita_palla_organismo, #visita_palla_sensorialita, #visita_palla_psiche, #visita_palla_storia, #visita_palla_attualita{
+	cursor:pointer;
+	top:53%;
+	overflow:hidden;
+	}
+
+#visita_palla_individuo, #visita_palla_societa, #visita_palla_territorio{
+	width:44px;
+	height:44px;
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/palle_temi_ferma_mvin.png) no-repeat top left;
+	}
+
+#visita_palla_cibo, #visita_palla_organismo, #visita_palla_sensorialita, #visita_palla_psiche, #visita_palla_storia, #visita_palla_attualita{
+	width:30px;
+	height:30px;
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/palle_argomenti_ferma_mvin.png) no-repeat top left;
+	}
+
+
+#visita_palla_mangiare{
+	width:124px;
+	height:124px;
+	left:200px;
+	margin:-132px 0 0 0;
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/palle_mangiare_ferma_mvin.png) no-repeat top left;
+	}
+	
+
+	#visita_palla_individuo{
+		left:163px;
+		margin:-180px 0 0 0;
+		}
+
+		#visita_palla_organismo{
+			left:90px;
+			margin:-259px 0 0 0;
+			}
+			
+		#visita_palla_psiche{
+			left:250px;
+			margin:-259px 0 0 0;
+			}
+			
+		#visita_palla_sensorialita{
+			left:90px;
+			margin:-89px 0 0 0;
+			}
+		
+		
+		
+	#visita_palla_societa{
+		left:370px;
+		margin:-92px 0 0 0;
+		}
+	
+		#visita_palla_storia{
+			left:455px;
+			margin:-171px 0 0 0;
+			}
+
+		#visita_palla_attualita{
+			left:455px;
+			margin:1px 0 0 0;
+			}
+
+	
+	#visita_palla_territorio{
+		left:163px;
+		margin:-4px 0 0 0;
+		}
+		
+		#visita_palla_cibo{
+			left:90px;
+			margin:89px 0 0 0;
+			}
+		
+		
+
+#visita_relazioni_mangiare_individuo, #visita_relazioni_mangiare_territorio, #visita_relazioni_mangiare_societa, #visita_relazioni_individuo_psiche, #visita_relazioni_individuo_organismo, #visita_relazioni_individuo_sensorialita, #visita_relazioni_territorio_cibo, #visita_relazioni_societa_storia, #visita_relazioni_societa_attualita{
+	background-color:#444;
+	top:53%;
+	}
+
+#visita_relazioni_mangiare_individuo, #visita_relazioni_mangiare_territorio, #visita_relazioni_individuo_psiche, #visita_relazioni_individuo_organismo, #visita_relazioni_individuo_sensorialita, #visita_relazioni_territorio_cibo, #visita_relazioni_societa_storia, #visita_relazioni_societa_attualita{
+	width:0px;
+	height:0px;
+	}
+	
+	#visita_relazioni_mangiare_individuo{
+		left:262px;
+		margin:-70px 0 0 0;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_grande2_mvin.png) no-repeat top left;
+		}
+
+	#visita_relazioni_mangiare_territorio{
+		left:262px;
+		margin:-70px 0 0 0;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_grande1_mvin.png) no-repeat top right;
+		}
+
+	#visita_relazioni_mangiare_societa{
+		width:0px;
+		height:44px;
+		margin:-92px 0 0 0;
+		left:262px;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_grande3_mvin.png) no-repeat top left;
+		}
+		
+	#visita_relazioni_individuo_organismo{
+		left:185px;
+		margin:-158px 0 0 0;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_piccole2_mvin.png) no-repeat top left;
+		}
+
+	#visita_relazioni_individuo_psiche{
+		left:185px;
+		margin:-158px 0 0 0;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_piccole1_mvin.png) no-repeat top right;
+		}
+
+	#visita_relazioni_individuo_sensorialita{
+		left:185px;
+		margin:-158px 0 0 0;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_piccole1_mvin.png) no-repeat top right;
+		}
+		
+	#visita_relazioni_societa_storia{
+		left:392px;
+		margin:-70px 0 0 0;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_piccole1_mvin.png) no-repeat top right;
+		}
+
+	#visita_relazioni_societa_attualita{
+		left:392px;
+		margin:-70px 0 0 0;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_piccole2_mvin.png) no-repeat top left;
+		}
+		
+
+	#visita_relazioni_territorio_cibo{
+		left:185px;
+		margin:18px 0 0 0;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/relazioni_piccole1_mvin.png) no-repeat top right;
+		}
+
+
+
+#visita_scritta_mangiare, #visita_scritta_individuo, #visita_scritta_societa, #visita_scritta_territorio, #visita_scritta_psiche, #visita_scritta_organismo, #visita_scritta_sensorialita, #visita_scritta_storia, #visita_scritta_attualita, #visita_scritta_cibo{
+	top:53%;
+	cursor:pointer;
+	color:#000;
+	height:25px;
+	}
+	
+#visita_scritta_individuo, #visita_scritta_societa, #visita_scritta_territorio{	font-size:1.0em;}
+
+#visita_scritta_psiche, #visita_scritta_organismo, #visita_scritta_sensorialita, #visita_scritta_storia, #visita_scritta_attualita, #visita_scritta_cibo{ font-size:0.8em;}
+	
+	
+#visita_scritta_mangiare{
+	background-color:#eee;
+	left:200px;
+	width:124px;
+	text-align:center;
+	font-size:1.2em;
+	margin:-82px 0 0 0;
+	padding:0;
+	}
+	
+	#visita_scritta_individuo{
+		left:217px;
+		margin:-170px 0 0 0;
+		}
+
+		#visita_scritta_organismo{
+			left:50px;
+			margin:-280px 0 0 0;
+			}
+			
+		#visita_scritta_psiche{
+			left:220px;
+			margin:-280px 0 0 0;
+			}
+			
+		#visita_scritta_sensorialita{
+			left:30px;
+			margin:-50px 0 0 0;
+			}
+		
+		
+		
+	#visita_scritta_societa{
+		left:420px;
+		margin:-82px 0 0 0;
+		}
+	
+		#visita_scritta_storia{
+			left:455px;
+			margin:-200px 0 0 0;
+			}
+
+		#visita_scritta_attualita{
+			left:455px;
+			margin:41px 0 0 0;
+			}
+
+	
+	#visita_scritta_territorio{
+		left:215px;
+		margin:5px 0 0 0;
+		}
+		
+		#visita_scritta_cibo{
+			left:90px;
+			margin:130px 0 0 0;
+			}
+	
+	
+
+/* ==========================================================================
+   Layout parte destra - indicazioni generali
+   ========================================================================== */
+#visita_percorso_museale{
+	width:60px;
+	height:100%;
+	top:0;
+	left:40%;
+	margin:0 0 0 -30px;
+	background-color: #fff;
+	}
+	
+#lv1_grafica_percorso{
+	width:31px;
+	height:635px;
+	margin:0 0 0 15px;
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo_lv1_percorso_mvin.png) no-repeat top left;
+	}
+
+	#lv2_grafica_percorso{
+		width:31px;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo_lv2_percorso_mvin.png) no-repeat top left;
+		}
+
+
+#l_t_percorso{
+	top:-635px;
+	padding:0;
+	margin:0 0 0 15px;
+	}
+	
+	.l_t_pallino{
+		cursor:pointer;
+		width:15px;
+		height:15px;
+		margin:0 0 0 7px;
+		}
+		
+	.l_t_passo{
+		width:1px;
+		height:35px;
+		margin:0 0 0 15px;
+		}
+		
+	#linea_temporale_inizio, #linea_temporale_fine{
+		width:30px;
+		height:30px;
+		margin:10px 0 10px 0;
+		}	
+		
+
+		.l_t_pallino:hover, .indicatore_linea_temporale{
+			background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/palla_colorata_percorso_mvin.png) no-repeat top left;
+			}
+			
+		.indicatore_linea_temporale2{
+			background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/palla_colorata2_percorso_mvin.png) no-repeat top left;
+			}
+			
+/* ==========================================================================
+   Layout parte destra - indicazioni generali
+   ========================================================================== */
+#visita_mangiare, #visita_individuo, #visita_societa, #visita_territorio, #visita_relazioni{
+	height:100%;
+	width:60%;
+	float:right;
+	background-color:#eee;
+	z-index:9;
+	}
+
+
+.visita_titolo_sezione{
+	font-family: 'EB Garamond', sans-serif;
+	font-size:1.1em; 
+	margin:40px 0 0 0;
+	letter-spacing:1px;
+	}
+
+footer{
+	overflow:hidden;
+	position:absolute;
+	bottom:0px;
+	left:42%;
+	width:56%;
+	padding:10px 0 90px 0;
+	z-index:999;
+	background-color:#FFF;
+	}
+
+
+	
+.visita_pulsante_risorse{
+	cursor:pointer;
+	font-size:0.8em;
+	height:50px;
+	width:100%;
+	}
+	
+	.visita_pulsante_risorse > div{
+		height:1px;
+		width:90%;
+		margin:10px 5% 5px 5%;
+		}
+		
+	.visita_pulsante_risorse > img{
+		height:10px;
+		width:10px;
+		}
+
+
+.tooltip_semplice{
+	display:none;
+	position:absolute;
+	background-color:#ff5000;
+	padding:5px;
+	z-index:99999;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    5px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:         5px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	font-size:0.8em;
+	color:#FFFFFF;
+	}
+
+/* ==========================================================================
+   PARTE DESTRA - IL MANGIARE
+   ========================================================================== */
+
+#visita_mangiare{
+	padding:80px 0 0 0;
+	}
+
+#visita_mangiare .visita_titolo_sezione{
+	font-size:2.7em;  
+	margin:0px 150px 0 150px;  
+	}
+
+#visita_mangiare .visita_titolo_piccolino{
+	font-size:0.7em;
+	margin:100px 150px 0 150px;
+	}
+
+#visita_mangiare > p{
+	margin:30px 150px 0 150px;
+	letter-spacing:1px;
+	font-size:0.85em;
+	line-height:1.8em;
+	text-align:justify;
+	}
+
+/* ==========================================================================
+   PARTE DESTRA - ORGANISMO -psiche
+   ========================================================================== */
+#visita_individuo{
+	padding:30px 0 0 0;
+	}
+
+#visita_individuo .visita_titolo_sezione{
+	font-size:2.5em; 
+	margin:0 150px 0 150px; 
+	width:70%; 
+	}
+
+#visita_individuo .visita_titolo_piccolino{
+	font-size:0.7em;
+	margin:100px 150px 0 150px; 
+	}
+
+#figura_umanoide{ 
+	height:450px;
+	width:186px;  
+	margin:0 0 0 30px;  
+	} 
+
+#indicatore_psiche, #indicatore_sensorialita, #indicatore_organismo{
+	cursor:pointer;
+	height:20px;
+	width:20px;  
+	left:0;
+	}
+
+#indicatore_psiche{
+	top:125px;
+	margin:0 0 0 130px;
+	}
+	
+#indicatore_sensorialita{
+	top:200px;
+	margin:0 0 0 140px;
+	}
+	
+#indicatore_organismo{
+	top:340px;
+	margin:0 0 0 140px;
+	}
+
+	
+#introduzione_individuo, #psiche, #sensorialita, #organismo{
+	margin:30px 50px 0 220px; 
+	letter-spacing:1px;
+	font-size:0.85em;
+	line-height:1.8em;
+	text-align:justify;
+	height:60%; 
+	width:60%; 
+	overflow:auto;
+	padding:0 15px 0 0;
+	}
+
+/* SCROLLBAR */
+
+		::-webkit-scrollbar {width:0.8em;}
+		::-webkit-scrollbar-track{border-radius:0.8em; background:#eee; -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.1); height:10px;}
+		::-webkit-scrollbar-thumb{border-radius:0.8em; background-color:rgba(200, 200, 200, 0.5);} 
+		::-webkit-scrollbar-thumb:hover{background-color:rgba(255, 80, 0, 0.5)} 
+		 
+/* SCROLLBAR */
+
+.visita_notazioni{
+	right:0;
+	top:0;
+	height:600px;
+	}
+
+	
+	.icona_espandi_riduci_notazioni{
+		height:50px;
+		width:50px;
+		margin:0 0 0 5px;
+		background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/visita_riferimenti_mvin_1366.png) no-repeat center center #fff;
+		-webkit-border-radius: 10px 0 0 10px;
+		border-radius: 10px 0 0 10px;
+		-webkit-box-shadow: -5px 0px 10px 0px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow:    -5px 0px 10px 0px rgba(0, 0, 0, 0.3);
+		box-shadow:         -5px 0px 10px 0px rgba(0, 0, 0, 0.3);
+		z-index:11119;
+		cursor:pointer;
+		}
+		
+		.icona_espandi_riduci_notazioni > img{
+			-webkit-border-radius: 10px 0 0 10px;
+			border-radius: 10px 0 0 10px;
+			}
+
+
+.visita_elenco_note{
+	width:600px;
+	padding:30px;
+	}
+
+.contenitore_risorse_link{
+	font-size:0.6em;
+	line-height:1.4em;
+	letter-spacing:1px;
+	border-radius: 0 0 0 10px;
+	-webkit-box-shadow: -5px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    -5px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:         -5px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	z-index:11111;
+	background-color:#fff;
+	overflow:hidden;
+	}
+	
+	.contenitore_risorse_link a{
+		color:#666;
+		text-decoration:underline;}
+	
+		.contenitore_risorse_link a:hover{
+			text-decoration:none;}
+			
+			
+			
+.condividi_contenuto{
+	bottom:100px;
+	left:100%;
+	margin:0 0 0 -320px;
+	width:300px;
+	height:30px;
+	}
+	
+	.twitter-share-button{
+		top:-20px;
+		left:120px;
+		}
+	
+	.google_plus{
+		top:-40px;
+		left:215px;
+		}
+/* ==========================================================================
+  Configurazione SOCIETA - STORIA 
+   ========================================================================== */
+#visita_societa{
+	padding:30px 0 0 0;
+	}
+
+#visita_societa .visita_titolo_sezione{
+	font-size:2.5em;
+	margin:0 150px 0 150px;
+	}
+
+#visita_societa .visita_titolo_piccolino{
+	font-size:0.7em;
+	margin:100px 150px 0 150px;
+	}
+
+#introduzione_societa{ 
+	margin:30px 150px 0 150px;
+	letter-spacing:1px;
+	font-size:0.85em; 
+	line-height:1.8em;
+	text-align:justify;
+	}
+
+.testo_societa{
+	position:relative;
+	left:50%;
+	margin:15px 0 20px -300px;  
+	width:70%;
+	height:230px;  
+	font-size:0.85em;
+	line-height:1.6em;
+	text-align:justify;
+	overflow:auto;
+	padding:0 10px 0 0;
+ 	}
+
+#visita_societa_storia_sfondo{ 
+	width:720; 
+	height:100px;   
+	margin:40px 0 15px -330px;       
+	display:inline-block;
+	padding:0 30px 0 30px; 
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo_storia_mvin.png) repeat-x top left;
+	overflow:hidden;
+	}
+
+
+#visita_societa_storia_sfondo li{ 
+		height:100px;
+		width:55px;
+		background-color:#C00;
+		overflow:hidden; 
+		border-right: 1px solid #FFF;
+		cursor:pointer;
+		}
+
+	.visita_storia_vuoto{ 
+		background: none !important;
+		cursor:default !important; 
+		width:5px !important;  
+		} 
+
+ .storia_testo_titolo{
+	 position:relative;
+	 top:130px; 
+	 font-size:1.2em; 
+	 text-align:left;
+	  } 
+	  
+
+/*.figure_storia{width:65px;}
+*/
+ .storia_immagini{ 
+	width:55px; 
+	height:100px;     
+ 	} 
+	 
+.storia_legenda_immagini{ 
+	width:80px;
+	color:#FF5000;
+	position:relative;
+	top:-50px;
+	overflow:hidden;
+	padding:5px;
+	height:30px;
+	}    
+	
+#storia_img_colori{
+	width:85px;
+	height:120px;
+	border:3px solid #fff;
+	top:140px;   
+	font-size:0.7em;
+	text-align:center;
+	cursor:pointer;
+	}	
+	
+	#storia_scritta_hover{
+		width:100px; 
+		padding:3px 0 3px 0;
+		top:180px;  
+		background-color:#222;
+		color:#FFF;
+		font-size:0.7em;
+		text-align:center;
+		cursor:pointer;  
+		}		
+	
+.zoom_paleolitico{ background: url(../img_museo_virtuale_inconsapevolezza_quotidiana/paleolitico_c.jpg) no-repeat top center;}	
+.zoom_neolitico{ background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/storia_neolitico_c.jpg) no-repeat top center;}
+.zoom_mesopotamia{ background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/storia_mesopotamia_c.jpg) no-repeat top center;}
+.zoom_egiziani{ background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/storia_egizi_c.jpg) no-repeat top center;}
+.zoom_greci{ background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/storia_greci_c.jpg) no-repeat top center;}
+.zoom_romani{ background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/storia_romani_c.jpg) no-repeat top center;}
+.zoom_medioevo{ background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/storia_medioevo_c.jpg) no-repeat top center;}
+.zoom_rinascimento{ background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/storia_rinascimento_c.jpg) no-repeat top center;}
+.zoom_tempi_moderni{ background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/storia_tempi_moderni_c.jpg) no-repeat top center;}
+.zoom_attualita{ background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/storia_attualita_c.jpg) no-repeat top center; width:}
+	
+	
+/* =========================================================================
+  Configurazione SOCIETA - TERRITORIO
+   ========================================================================== */
+#visita_territorio{
+	padding:30px 0 0 0;
+	}
+
+#visita_territorio .visita_titolo_sezione{
+	font-size:2.5em;
+	margin:30px 150px 0 150px;
+	}
+
+#visita_territorio .visita_titolo_piccolino{
+	font-size:0.7em;
+	margin:100px 150px 0 150px;
+	}
+	   
+#introduzione_territorio{
+	margin:30px 150px 0 150px;
+	letter-spacing:1px;
+	font-size:0.85em;
+	line-height:1.8em;
+	text-align:justify;
+	}
+ 
+

@@ -1,0 +1,1168 @@
+
+
+@media screen and (max-width:1199px){
+
+	.gallery figure figcaption {
+		padding: 0 !important ;
+		color: #006030;
+		font-size: 0.8em !important;
+		}
+
+figure.effect {
+	margin:0 0 0 0; !important;
+	}
+
+	figure.effect figcaption::before,
+	figure.effect figcaption::after {
+		position: absolute;
+		top: 0px !important;
+		right: 0px !important;
+		bottom: 0px !important ;
+		left: 0px !important;
+		content: '';
+		opacity: 0;
+		}
+
+		.tasto_scopri p a{
+			width:60% !important;
+			margin:40px 18% 0 18% !important;}
+}
+
+
+/* INIZIO STILI GENERALI */
+
+/* ==========================================================================
+   COMMUNITY PROGETTISTI - PARTE FISSA 
+   ========================================================================== */
+#community_fixed{ 
+	width:40%;
+	height:100%;
+	position:fixed;
+	left:0; 
+	top:0;
+	background: url(../img_museo_virtuale_inconsapevolezza_quotidiana/community_progettisti.jpg) no-repeat center center #FFF;
+	}
+	
+	#community_fixed header h1{ 
+		font-family: 'EB Garamond';
+		font-size:2.5em;  
+		font-style: normal;
+		font-weight: 550;
+		margin:50px 0 0 0;   
+		padding:0 15% 0 15%;
+		width:70%;
+		color:#000;
+		text-transform:uppercase;
+		}
+		
+	#community_fixed header h2{ 
+		font-size:1.0em;  
+		margin:0 0 0 7%;
+		padding:0 13% 0 15%;
+		width:70%;
+		color:#000; 
+		font-style: normal;
+		}
+		
+	#community_fixed p{ 
+		margin:30px 50px 0 15%; 
+		font-size:0.85em; 
+		line-height:1.8em; 
+		width:65%; 
+		text-align:justify;
+		padding:0 0 20px 0;
+		}
+
+/* ==========================================================================
+   COMMUNITY PROGETTISTI - PARTE MOBILE 
+   ========================================================================== */
+
+#conteiner{
+	float:right;
+	width:60%;
+	padding:0 0 70px 0; 
+	overflow:hidden;
+	background-color:#033;
+	}
+	
+	#progettisti{
+		width:80%;
+		padding:50px 10% 30px 7%;
+		margin:0 0 0 3%;
+		background-color:#fff;
+		}
+
+	#progettisti header h2{
+		font-size:1.2em;
+		font-variant:small-caps;
+		color:#777;
+		}
+
+
+	#progettisti header h3{
+		font-size:2.2em;
+		line-height:0.9em;
+		font-family: 'EB Garamond', serif !important;
+		font-variant:small-caps;
+		color:#033;
+		font-weight:600;
+		}
+
+	#progettisti header h4{
+		font-size:0.9em;
+		line-height:1em;
+		color:#222;
+		padding:5px 0 0 0;
+		font-style:italic; 
+		}
+		
+	#progettisti p{
+		text-align:justify;
+		font-size:0.9em;
+		line-height:1.8em;
+		}
+		
+	#progettisti p .span_citazione{
+		font-size:0.8em;
+		line-height:1.4em;
+		display:block;
+		text-align:right !important;
+		font-style:italic; width:100%; 
+		padding:20px 0 20px 0;
+		float:right;
+		}
+		
+/* ===INIZIO GALLERY=======================================================================*/
+	
+#gallery{
+	width:100%;
+	background:#033;
+/*	border-right: 3% solid #033;
+	border-left: 3% solid #033;
+*/	}
+		
+ul#progettisti_gallery {  
+		width:80%;
+		padding:30px 9% 50px 7%;
+		margin:0 1% 0 3%;
+		display:inline-block;
+		position:relative;
+		background-color:#fff;
+		} 
+		
+#prog_g1, #prog_g3 { float:left; }
+#prog_g2, #prog_g4 { float:right;} 
+
+
+/* gallery hover effect */
+
+.gallery {
+	margin: 0;
+	}
+
+	.gallery figure {
+		position: relative;
+		overflow: hidden;
+		max-height: 250px;
+		width: 48%;
+		text-align: center;
+		cursor: pointer;
+		padding:0;
+		margin:0;
+		}
+	
+	.gallery figure img {
+		position: relative;
+		display: block;
+		min-height: 100%;
+		max-width: 100%;
+		opacity: 0.8;
+		padding:0;
+		}
+
+	.gallery figure figcaption {
+		padding: 1%;
+		color: #006030;
+		font-size: 0.85em;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		}
+
+	.gallery figure figcaption::before,
+	.gallery figure figcaption::after {
+		pointer-events: none;
+	}
+
+	.gallery figure h2 {font-weight: 500; margin: 0; color:#006030;}
+	.gallery figure h2 span {font-weight: 800;}
+	.gallery figure p {margin: 0; color:#222; }
+
+figure.effect {
+	background: #fff;
+	margin:2% 0 1% 0; !important;
+	}
+
+	figure.effect img {
+		max-width: none;
+		width: -webkit-calc(100% + 20px);
+		width: calc(100% + 20px);
+		opacity: 1;
+		margin:0 0 0 20px;
+		
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(-25px,0,0) scale(1.12);
+		transform: translate3d(-25px,0,0) scale(1.12);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		}
+
+	figure.effect:hover img {
+		opacity: 0.15;
+		-webkit-transform: translate3d(-25px,0,0) scale(1);
+		transform: translate3d(-25px,0,0) scale(1);
+		}
+
+/*---*/
+
+	figure.effect figcaption::before,
+	figure.effect figcaption::after {
+		position: absolute;
+		top: 25px;
+		right: 25px;
+		bottom: 25px;
+		left: 20px;
+		content: '';
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+		}
+	
+	figure.effect figcaption::before {
+		border-top: 2px solid #006030;
+		border-bottom: 2px solid #006030;
+		-webkit-transform: scale(0,1);
+		transform: scale(0,1);
+		}
+	
+	figure.effect figcaption::after {
+		border-right: 2px solid #006030;
+		border-left: 2px solid #006030;
+		-webkit-transform: scale(1,0);
+		transform: scale(1,0);
+		}
+
+	figure.effect h2{
+		padding-top: 8% !important;
+		opacity:0;
+		-webkit-transition: opacity 0.5s, -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,-20px,0);
+		transform: translate3d(0,-20px,0);
+		}
+		
+		 figure.effect a{ 
+		 	width:50%;
+			text-align:center;
+			color:#222; 
+			padding:5px 0 5px 0;
+			margin: 5px 25% 0 25%;
+			display:block;
+			opacity:0;
+			-webkit-transition: opacity 0.5s, -webkit-transform 0.35s;
+			transition: transform 0.35s;
+			-webkit-transform: translate3d(0,-20px,0);
+			transform: translate3d(0,-20px,0);
+		 }
+		figure.effect h2:hover { opacity:1;}
+
+		figure.effect p {
+			margin: 15px 10% 0 10%;
+			width:80%;
+			font-size:0.85em !important;
+			opacity: 0;
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+			-webkit-transform: translate3d(0,20px,0);
+			transform: translate3d(0,20px,0);
+			}
+		
+
+		figure.effect:hover figcaption::before,
+		figure.effect:hover figcaption::after {
+			opacity: 1;
+			-webkit-transform: scale(1);
+			transform: scale(1);
+			}
+		
+		figure.effect :hover h2,
+		figure.effect :hover p, 
+		figure.effect :hover a {
+			opacity: 1;
+			-webkit-transform: translate3d(0,0,0);
+			transform: translate3d(0,0,0);
+			}
+/* CONTENUTO MOSTRA */
+
+/* MOSTRA 1 */
+
+div.mostra{
+	width:100%;
+	margin:0 0 0 0;
+	}
+
+.sp-slideshow {
+    position: relative;
+	padding:0 0 0 0;
+	width: 950px;
+	height:460px;
+	max-width: 950px;
+	height: 460px;
+/*	border: 10px solid #fff;
+	border: 10px solid rgba(255,255,255,0.9);
+*/  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.sp-content{
+    background: #fff url(../img_museo_virtuale_inconsapevolezza_quotidiana/mvin_sfondo_partecipa_nero.png) repeat scroll 0 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	}
+.sp-parallax-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	}
+
+.bg_coltivarsi{
+	position: absolute;
+	bottom:0;
+	margin:5%;
+	width:90%;
+	border-bottom: solid 1px #9b9b9b;
+	}
+	
+	.bg_coltivarsi > span{
+		margin:7% 0 0 0;
+		display:block;
+		width:30%;
+		float:right;
+		font-size:0.7em;
+		color:#bbb;
+		text-transform:uppercase;
+		}
+		
+	.bg_coltivarsi > img{ 
+		width:15% !important;
+		opacity:0.2;
+		margin:0 0 0 1%;
+		float:left;
+		}
+
+.sp-slideshow input {
+    position: absolute;
+	bottom: 15px;
+	left: 50%;
+	width: 9px;
+	height: 9px;
+	z-index: 1001;
+	cursor: pointer;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.sp-slideshow input + label {
+    position: absolute;
+    bottom: 15px;
+	left: 50%;
+    width: 8px;
+	height: 8px;
+	display: block;
+	z-index: 1000;
+	border: 2px solid #C7B299;
+	border: 2px solid rgba(199,178,153,0.9);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: background-color linear 0.1s;
+    -moz-transition: background-color linear 0.1s;
+    -o-transition: background-color linear 0.1s;
+    -ms-transition: background-color linear 0.1s;
+    transition: background-color linear 0.1s;
+}
+.sp-slideshow input:checked + label {
+	background-color: #C7B299;
+    background-color: rgba(199,178,153,0.9);
+}
+
+.sp-selector-1, .button-label-1 {
+    margin-left: -36px;
+}
+
+.sp-selector-2, .button-label-2 {
+    margin-left: -18px;
+}
+
+.sp-selector-4, .button-label-4 {
+    margin-left: 18px;
+}
+
+.sp-selector-5, .button-label-5 {
+    margin-left: 36px;
+}
+
+.sp-selector-6, .button-label-6 {
+    margin-left: 54px;
+}
+
+.sp-selector-7, .button-label-7 {
+    margin-left: 72px;
+}
+
+
+.sp-arrow {
+    position: absolute;
+	top: 50%;
+	width: 28px;
+	height: 38px;
+	margin-top: -19px;
+	display: none;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 1000;
+	background: transparent url(../img_museo_virtuale_inconsapevolezza_quotidiana/arrows.png) no-repeat;
+	-webkit-transition: opacity linear 0.3s;
+    -moz-transition: opacity linear 0.3s;
+    -o-transition: opacity linear 0.3s;
+    -ms-transition: opacity linear 0.3s;
+    transition: opacity linear 0.3s;
+}
+.sp-arrow:hover{
+	opacity: 1;
+}
+.sp-arrow:active{
+	margin-top: -18px;
+}
+.sp-selector-1:checked ~ .sp-arrow.sp-a2,
+.sp-selector-2:checked ~ .sp-arrow.sp-a3,
+.sp-selector-3:checked ~ .sp-arrow.sp-a4,
+.sp-selector-4:checked ~ .sp-arrow.sp-a5,
+.sp-selector-5:checked ~ .sp-arrow.sp-a6,
+.sp-selector-6:checked ~ .sp-arrow.sp-a7{
+    right: 15px;
+	display: block;
+	background-position: top right;
+}
+.sp-selector-2:checked ~ .sp-arrow.sp-a1,
+.sp-selector-3:checked ~ .sp-arrow.sp-a2,
+.sp-selector-4:checked ~ .sp-arrow.sp-a3,
+.sp-selector-5:checked ~ .sp-arrow.sp-a4,
+.sp-selector-6:checked ~ .sp-arrow.sp-a5,
+.sp-selector-7:checked ~ .sp-arrow.sp-a6{
+    left: 15px;
+	display: block;
+	background-position: top left;
+}
+
+.sp-slideshow input:checked ~ .sp-content {
+    -webkit-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -moz-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -o-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -ms-transition: background-position linear 0.6s, background-color linear 0.8s;
+    transition: background-position linear 0.6s, background-color linear 0.8s;
+}
+
+.sp-slideshow input:checked ~ .sp-content .sp-parallax-bg .bg_coltivarsi {
+    -webkit-transition: background-position linear 0.7s;
+    -moz-transition: background-position linear 0.7s;
+    -o-transition: background-position linear 0.7s;
+    -ms-transition: background-position linear 0.7s;
+    transition: background-position linear 0.7s;
+}
+
+
+input.sp-selector-1:checked ~ .sp-content {
+    background-position: 0 0;
+	background: #f3f3f3; 
+}
+
+input.sp-selector-2:checked ~ .sp-content {
+    background-position: -100px 0;
+	background-color: #ddd;
+}
+
+input.sp-selector-3:checked ~ .sp-content {
+    background-position: -200px 0;
+	background-color: #fff;
+}
+
+input.sp-selector-4:checked ~ .sp-content {
+    background-position: -300px 0;
+	background-color: #b8c0c6;
+}
+
+input.sp-selector-5:checked ~ .sp-content {
+    background-position: -400px 0;
+	background-color: #acbfb9;
+}
+
+input.sp-selector-6:checked ~ .sp-content {
+    background-position: -500px 0;
+	background-color: #FCAF70;
+}
+
+input.sp-selector-7:checked ~ .sp-content {
+    background-position: -600px 0;
+	background-color: #F00;
+}
+
+input.sp-selector-1:checked ~ .sp-content .sp-parallax-bg{
+    background-position: 0 0;
+}
+
+input.sp-selector-2:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -200px 0;
+}
+
+input.sp-selector-3:checked ~ .sp-content .sp-parallax-bg  {
+    background-position: -400px 0;
+}
+
+input.sp-selector-4:checked ~ .sp-content .sp-parallax-bg  {
+    background-position: -600px 0;
+}
+
+input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg  {
+    background-position: -800px 0;
+}
+
+input.sp-selector-6:checked ~ .sp-content .sp-parallax-bg  {
+    background-position: -1000px 0;
+}
+
+input.sp-selector-7:checked ~ .sp-content .sp-parallax-bg  {
+    background-position: -1200px 0;
+}
+/*ppppp*/
+
+
+.sp-slider {
+    position: relative;
+	left: 0;
+    width: 500%;
+	height: 100%;
+	list-style: none;
+    margin: 0;
+	padding: 0;
+    -webkit-transition: left ease-in 0.8s;
+    -moz-transition: left ease-in 0.8s;
+    -o-transition: left ease-in 0.8s;
+    -ms-transition: left ease-in 0.8s;
+    transition: left ease-in 0.8s; 
+	}
+
+	.sp-slider > li {
+		width: 20%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		height: 100%;
+		padding: 0 60px;
+		float: left;
+		opacity: 0.4;
+		-webkit-transition: opacity ease-in 0.4s 0.8s;
+		-moz-transition: opacity ease-in 0.4s 0.8s;
+		-o-transition: opacity ease-in 0.4s 0.8s;
+		-ms-transition: opacity ease-in 0.4s 0.8s;
+		transition: opacity ease-in 0.4s 0.8s; 
+		}
+
+	.sp-slider .copertina img{
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		display: block;
+		margin: 0 auto;
+		padding: 100px 0 0 0;
+		max-height: 100%;
+		max-width: 100%;
+		}
+	
+	.sp-slider > li.copertina p {
+		text-align: center;
+		color: #9b9b9b;
+		font-size: 0.7em;
+		margin:0 0 0 0;
+		text-height:1em;
+		}
+	
+	.testo_mostra p {
+		color:#006837;
+		margin:70px 25% 0 25%;
+		background:#eee; 
+		font-size: 0.85em;
+		padding:5%; 
+		text-height:1.8em;
+		width:40%;
+		border: solid 10px #006837;
+		text-align:left;
+		}
+
+	.testo_mostra p span, .sistema_coltivarsi2 p span,.sistema_reverdece2 p span{
+		font-size:1.4em;
+		font-weight:700;
+		text-height:1.5em;
+		}
+
+	.testo_mostra img{
+		width:60%;
+		margin:-5% 0 0 3% !important;
+		position:relative;
+		}
+		
+		.sistema_coltivarsi img{
+			margin:0 0 0 10px;
+			text-align:center;
+			width:90%;
+			padding: 0 5%;
+			}
+		.sistema_coltivarsi2{
+			float:left;
+			margin:90px 0 0 0;
+			}
+			
+		.sistema_coltivarsi2 p{
+			position:relative;
+			font-size:0.85em;
+			color:#006837;
+			background:#eee; 
+			padding:2%; 
+			text-height:1.8em;
+			width:20%;
+			border: solid 10px #006837;
+			text-align:left;
+			}
+		.sistema_coltivarsi2 img{
+			margin: 0 0 0 0;
+			padding: 0 3%;
+			width:65%;
+			}
+			
+		.crediti_gallery{
+			color:#fff;
+			text-align:left;
+			font-size:0.9em;
+			margin:0 0 0 0;
+
+			}	
+			
+			.crediti_gallery h3{
+				font-size:1.5em !important;
+				padding:0 0 5px 0;
+				margin:60px 0 0 0 !important;
+				font-weight:500;
+				}
+				
+			.crediti_gallery h4{
+				font-size:0.9em !important;
+				text-height:1.5em;
+				}
+				
+				
+			.crediti_gallery div{
+				font-size:0.85em !important;
+				text-height:1.5em;
+				margin:7px 0 0 0;
+				height:35px;
+				}
+			.crediti_gallery span{
+				text-align:left;
+				}
+
+			.crediti_gallery a{
+				color:#eee;
+				margin:0 0 0 5px;
+				}
+				
+			.crediti_gallery a:hover{
+				color:#006837;
+				}
+				
+/*MANI IN ARTE*/
+
+.mani_in_arte{padding:0 5%; margin:20px 0 0 0; }
+
+/*REVERDECE*/			
+		.sistema_reverdece img{
+			margin:50px 0 0 -35%;
+			text-align:center;
+			position:relative;
+			left:50%;
+			width:70%;
+			}
+		.sistema_reverdece2{
+			margin:30px 0 0 0;
+			}
+			
+		.sistema_reverdece2 p{
+			font-size:0.85em;
+			color:#006837;
+			background:#eee; 
+			padding:2%; 
+			text-height:1.8em;
+			width:70%;
+			border: solid 10px #006837;
+			text-align:left;
+			margin:10px 0 0 -37%;
+			position:relative;
+			left:50%;
+			}
+		.sistema_reverdece2 img{
+			margin:-10px 0 0 -35%;
+			width:70%;
+			position:relative;
+			left:50%;}
+			
+				
+	.testo_mostra p span, .sistema_coltivarsi2 p span,.sistema_reverdece2 p span {
+		font-size:1.4em;
+		font-weight:700;
+		text-height:1.5em;
+		}
+			
+			
+			
+input.sp-selector-1:checked ~ .sp-content .sp-slider {
+    left: 0;
+}
+
+input.sp-selector-2:checked ~ .sp-content .sp-slider {
+    left: -100%;
+}
+
+input.sp-selector-3:checked ~ .sp-content .sp-slider {
+    left: -200%;
+}
+
+input.sp-selector-4:checked ~ .sp-content .sp-slider {
+    left: -300%;
+}
+
+input.sp-selector-5:checked ~ .sp-content .sp-slider {
+    left: -400%;
+}
+
+input.sp-selector-1:checked ~ .sp-content .sp-slider > li:first-child,
+input.sp-selector-2:checked ~ .sp-content .sp-slider > li:nth-child(2),
+input.sp-selector-3:checked ~ .sp-content .sp-slider > li:nth-child(3),
+input.sp-selector-4:checked ~ .sp-content .sp-slider > li:nth-child(4),
+input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5)
+{
+	opacity: 1;
+}
+
+
+/*MOSTRA 2*/
+
+.content{
+    background: #fff url(../img_museo_virtuale_inconsapevolezza_quotidiana/mvin_sfondo_partecipa_nero.png) repeat scroll 0 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	}
+.parallax_bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	}
+
+.bg_fieldiaries{
+	position: absolute;
+	bottom:0;
+	margin:5%;
+	width:90%;
+	border-bottom: solid 1px #9b9b9b;
+	}
+	
+	.bg_fieldiaries > span{
+		margin:7% 0 0 0;
+		display:block;
+		width:30%;
+		float:right;
+		font-size:0.7em;
+		color:#bbb;
+		text-transform:uppercase;
+		}
+		
+	.bg_fieldiaries > img{ 
+		width:15% !important;
+		opacity:0.2;
+		margin:0 0 0 1%;
+		float:left;
+		}
+	
+.selector1, .label1 {
+    margin-left: -54px;
+}
+
+.selector2, .label2 {
+    margin-left: -36px;
+}
+
+.selector3, .label3 {
+    margin-left: -18px;
+}
+
+.selector4, .label4 {
+    margin-left: 0;
+}
+
+.selector5, .label5 {
+    margin-left: 18px;
+}
+
+.selector6, .label6 {
+    margin-left: 36px;
+}
+
+.selector1:checked ~ .sp-arrow.a2,
+.selector2:checked ~ .sp-arrow.a3,
+.selector3:checked ~ .sp-arrow.a4,
+.selector4:checked ~ .sp-arrow.a5,
+.selector5:checked ~ .sp-arrow.a6{
+    right: 15px;
+	display: block;
+	background-position: top right;
+}
+.selector2:checked ~ .sp-arrow.a1,
+.selector3:checked ~ .sp-arrow.a2,
+.selector4:checked ~ .sp-arrow.a3,
+.selector5:checked ~ .sp-arrow.a4,
+.selector6:checked ~ .sp-arrow.a5{
+    left: 15px;
+	display: block;
+	background-position: top left;
+}
+
+input.selector1:checked ~ .content {
+    background-position: 0 0;
+	background: #f3f3f3; 
+}
+
+input.selector2:checked ~ .content {
+    background-position: -100px 0;
+	background-color: #ddd;
+}
+
+input.selector3:checked ~ .content {
+    background-position: -200px 0;
+	background-color: #fff;
+}
+
+input.selector4:checked ~ .content {
+    background-position: -300px 0;
+	background-color: #b8c0c6;
+}
+
+input.selector5:checked ~ .content {
+    background-position: -400px 0;
+	background-color: #acbfb9;
+}
+
+input.selector6:checked ~ .content {
+    background-position: -500px 0;
+	background-color: #acbfc9;
+}
+
+
+input.selector1:checked ~ .content .parallax_bg{
+    background-position: 0 0;
+}
+
+input.selector2:checked ~ .content .parallax_bg{
+    background-position: -200px 0;
+}
+
+input.selector3:checked ~ .content .parallax_bg{
+    background-position: -400px 0;
+}
+
+input.selector4:checked ~ .content .parallax_bg{
+    background-position: -600px 0;
+}
+
+input.selector5:checked ~ .content .parallax_bg{
+    background-position: -800px 0;
+}
+
+input.selector6:checked ~ .content .parallax_bg{
+    background-position: -1000px 0;
+}
+
+
+.slider {
+    position: relative;
+	left: 0;
+    width: 600%;
+	height: 100%;
+	list-style: none;
+    margin: 0;
+	padding: 0;
+    -webkit-transition: left ease-in 0.8s;
+    -moz-transition: left ease-in 0.8s;
+    -o-transition: left ease-in 0.8s;
+    -ms-transition: left ease-in 0.8s;
+    transition: left ease-in 0.8s; 
+	}
+
+	.slider > li {
+		width: 20%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		height: 100%;
+		padding: 0 60px;
+		float: left;
+		opacity: 0.4;
+		-webkit-transition: opacity ease-in 0.4s 0.8s;
+		-moz-transition: opacity ease-in 0.4s 0.8s;
+		-o-transition: opacity ease-in 0.4s 0.8s;
+		-ms-transition: opacity ease-in 0.4s 0.8s;
+		transition: opacity ease-in 0.4s 0.8s; 
+		}
+
+
+	.slider .copertina_fieldiaries{
+		margin:30px 0 0 -80px;
+		max-height: 100%;
+		max-width: 100%;
+		}
+	.slider .copertina_fieldiaries img{
+		display: block;
+		margin: 0 auto;
+		padding: 90px 0 0 0;
+		max-height: 100%;
+		max-width: 100%;
+		}
+	
+	.slider > li.copertina_fieldiaries p {
+		text-align: center;
+		color: #9b9b9b;
+		font-size: 0.7em;
+		margin:0 0 0 0;
+		text-height:1em;
+		}
+	
+	.testo_fieldiaries p{
+		color:#006837 !important;
+		margin:50px 0 0 0;
+		background:#eee; 
+		font-size: 0.85em !important;
+		padding:2%; 
+		text-height:1.5em !important;
+		width:60%;
+		border: solid 10px #006837 !important;
+		text-align:left;
+		}
+
+	.testo_fieldiaries p span{
+		font-size:1.4em;
+		font-weight:700;
+		text-height:1.5em;
+		}
+
+		.fieldiaries{ margin:10px 0 0 -190px;}
+		.fieldiaries2{ margin:10px 0 0 -190px; }
+
+		.crediti_gallery2{
+			color:#fff;
+			text-align: left;
+			font-size:0.9em;
+			margin:0 0 0 -600px; 
+			padding:0 0 0 350px !important;
+			}	
+			
+			.crediti_gallery2 div h3{
+				font-size:1.8em !important;
+				padding:0 0 5px 0;
+				font-weight:500;
+				margin:50px 0 0 0;
+				}
+				
+			.crediti_gallery2 div{
+				font-size:0.85em !important;
+				text-height:1.5em;
+				margin:7px 0 0 0;
+				height:35px;
+				}
+			.crediti_gallery2 span{
+				text-align:center;
+				top:7px;
+				}
+
+			.crediti_gallery2 a{
+				color:#eee;
+				clear:both;
+				margin:0 0 0 5px;
+				}
+				
+			.crediti_gallery2 a:hover{
+				color:#006837;
+				}
+			
+			
+input.selector1:checked ~ .content .slider {
+    left: 0; 
+}
+
+input.selector2:checked ~ .content .slider {
+    left: -100%; 
+}
+
+input.selector3:checked ~ .content .slider {
+    left: -200%; 
+}
+
+input.selector4:checked ~ .content .slider {
+    left: -300%;
+}
+
+input.selector5:checked ~ .content .slider {
+    left: -400%; 
+}
+
+input.selector6:checked ~ .content .slider {
+    left: -500%; 
+}
+
+input.selector1:checked ~ .content .slider > li:first-child,
+input.selector2:checked ~ .content .slider > li:nth-child(2),
+input.selector3:checked ~ .content .slider > li:nth-child(3),
+input.selector4:checked ~ .content .slider > li:nth-child(4),
+input.selector5:checked ~ .content .slider > li:nth-child(5),
+input.selector6:checked ~ .content .slider > li:nth-child(6){
+	opacity: 1;}
+
+
+
+
+
+
+/* bottone partecipa */
+.tasto_scopri{ 
+	width:100%;
+	background:#eee;
+	padding:30px 0 30px 0;
+	}		
+		.tasto_scopri h3{
+			 width:80%;
+			 padding:0 10%;
+			 font-size:1.6em;
+			 color:#000;
+			 font-family: 'EB Garamond', serif; 
+			}
+		.tasto_scopri p{
+			 width:70%;
+			 padding:10px 15%;
+			 font-size:0.9em;
+			 line-height:1.6em;
+			 color:#222;
+			 text-align:justify;
+			 }
+			 
+		.tasto_scopri p a{
+			width:50%;
+			display:block;
+			padding:20px 2%;
+			margin:40px 23% 0 23%;
+			font-size:120%;
+			color:#ff5000;
+			background:#fff;
+			text-align:center;
+			outline: 2px solid #ff5000;
+			outline-offset: 5px;
+			font-family: 'EB Garamond', serif;
+			font-weight:700;
+			letter-spacing:1px;
+			opacity:1;
+			
+		-webkit-transition: all 0.8s ease-in-out;
+		-moz-transition: all 0.8s ease-in-out;
+		-ms-transition: all 0.8s ease-in-out;
+		-o-transition: all 0.8s ease-in-out;
+		transition: all 0.8s ease-in-out;	}
+			
+		.tasto_scopri p a:hover{
+			background:#ff5000; 
+			color:#fff;
+			letter-spacing:0px;
+			opacity:0.7;
+			outline: 2px solid #fff;
+			outline-offset: 5px;
+			
+			
+		-webkit-transition: all 0.8s ease-in-out;
+		-moz-transition: all 0.8s ease-in-out;
+		-ms-transition: all 0.8s ease-in-out;
+		-o-transition: all 0.8s ease-in-out;
+		transition: all 0.8s ease-in-out;
+		}	 
+		
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+#ombra_gallery{
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo_oscura_museo_virtuale_inconsapevolezza_quotidiana.png) repeat;
+	cursor:pointer;
+	}
+
+
+#contenitore_slide{
+	position:absolute;
+	width:950px;
+	height:460px;
+	left:50%;
+	margin:0 0 0 -485px;
+	top:50px;
+	padding:10px;
+	background-color:#FFFFFF;
+	}
+
+
+
+@media screen and (max-width: 840px){
+	.sp-slideshow { height: 345px; }
+}
+@media screen and (max-width: 680px){
+	.sp-slideshow { height: 285px; }
+}
+@media screen and (max-width: 560px){
+	.sp-slideshow { height: 235px; }
+}
+@media screen and (max-width: 320px){
+	.sp-slideshow { height: 158px; }
+}

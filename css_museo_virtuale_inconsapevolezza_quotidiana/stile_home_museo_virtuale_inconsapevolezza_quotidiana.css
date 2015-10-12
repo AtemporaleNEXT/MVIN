@@ -1,0 +1,936 @@
+@import url("http://mvinconsapevolezzaquotidiana.org/css_museo_virtuale_inconsapevolezza_quotidiana/normalize_museo_virtuale_inconsapevolezza_quotidiana.css");
+@import url("http://mvinconsapevolezzaquotidiana.org/css_museo_virtuale_inconsapevolezza_quotidiana/main_museo_virtuale_inconsapevolezza_quotidiana.css");
+
+
+/*-------------------OFFLIMITS*/
+
+
+@media only screen and (max-height: 700px) {
+    /* Style adjustments for viewports that meet the condition */
+#index_logo{ 
+	width:300px; 
+	height:300px; 
+	margin:0 0 0 0;
+	}
+
+}
+@media screen and (max-width:1199px){
+
+#contatti{ 
+	width:100%;
+	}
+	
+	#contatti h2{ 
+	font-family: 'EB Garamond', sans-serif;
+	font-size:2.3em; 
+	padding:50px 0 10px 50px;
+	width:100%; letter-spacing:0.02em; 
+	height:50px; 
+	} 
+
+	#contatti p{ 
+	padding:5px 20px 20px 5px;
+	font-size:0.95em !important; 
+	line-height:1.6em !important;  
+	width:35% !important;
+	letter-spacing:0px !important;
+	
+	} 
+	
+/* ===================
+   PARALLAX BG ================= */ 
+   
+   
+#parallax_bg1{
+	position: fixed;
+	top:0 !important;
+	width:100%;
+	z-index:-2;
+
+	}
+
+#bg1{
+	position:absolute; 
+	top:0;
+	}
+	
+
+	}
+	
+	
+/* ==========================================================================
+  STILI GENERALI
+   ========================================================================== */
+	
+ .nascondi1366{
+	 display:none;
+	 }  
+	
+/* ==========================================================================
+   PRESENTAZIONE DEL MUSEO 
+   ========================================================================== */
+
+#contenitore_immagini_defocus{
+	width:100%;
+	overflow:hidden;
+	}
+
+	#immagini_a_fuoco{
+		position:absolute;
+		top:0px;
+		left:0px;
+		width:100%;
+		}	
+	
+		#contenitore_immagini_defocus img{
+			width:100%;
+			}
+		#immagini_a_fuoco img{
+			width:100%;
+			}
+		
+	#area_sensibile_sx, #area_sensibile_dx, #area_sensibile_centrale{
+		position:absolute; 
+		cursor:pointer;
+		}
+		
+	#area_sensibile_sx{
+		top:0;
+		left:0;
+		width:40%;
+		min-height:100px; /*-------tentativi area sensibile----------*/
+		}
+		
+	#area_sensibile_dx{
+		top:0;
+		left:100%;
+		margin:0 0 0 -40%;
+		width:40%;
+		min-height:100px;/*-------tentativi area sensibile----------*/
+		}
+	
+	#area_sensibile_centrale{
+		top:0;/*-------tentativi area sensibile TOP = MIN-HEIGHT di #area_sensibile_sx{----------*/
+		left:10%;
+		width:80%;
+		min-height:100px;/*-------tentativi area sensibile----------*/
+		}
+		
+	#scritta_blur_1{
+		position:absolute;
+		top:300px;
+		left:5%;
+		width:60%;
+		}	
+		
+	#scritta_blur_2{
+		position:absolute;
+		top:450px;
+		left:100%;
+		margin:0 0 0 -65%;
+		width:60%;
+		}	
+		
+	#scritta_blur_3{
+		position:absolute;
+		top:600px;
+		left:20%;
+		width:60%;
+		}		
+	#scritta_blur_1 img, #scritta_blur_2 img, #scritta_blur_3 img{
+		position:absolute;
+		width:100%;
+		top:0;
+		}	
+	
+#copertina{
+	width:550px;
+	}
+
+#texto_home{
+	width:800px;
+	margin:-350px 0 0 550px;
+	}	
+	
+.titolo_principale{
+	font-family: 'EB Garamond', sans-serif;
+	font-size:3.0em; 
+	}	
+
+.titoli_index{
+	font-family: 'EB Garamond', sans-serif;
+	font-size:2.3em; 
+	}	
+
+
+/* ==========================================================================
+   INCONSAPEVOLEZZA QUOTIDIANA 
+   ========================================================================== */
+
+
+#inconsapevolezza{
+	wiidth:100%;
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo_home_inconsapevolezza.png) bottom center no-repeat #e3e3e3;
+	padding:80px 0 80px 0;
+}
+	
+	#inconsapevolezza header{
+		padding:70px 0 0 50px;
+		}
+	
+	#inconsapevolezza h2{ 	
+		font-size:1.1em;
+		font-family: 'EB Garamond', sans-serif;
+		}
+
+	.destacatesto{color:#000; font-weight:700;}
+
+.sp-slideshow{
+    position: relative;
+	width: 1000px;
+	max-width: 1000px;
+	min-width: 260px;
+	height: 460px;
+	left:50%;
+	margin:0 0 0 -500px;
+	border: 10px solid #fff;
+	border: 10px solid rgba(255,255,255,0.9);
+	}
+
+.sp-content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	}
+
+/*.sp-parallax-bg {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+*/
+.sp-slideshow input{
+    position: absolute;
+	bottom: 15px;
+	left: 50%;
+	width: 9px;
+	height: 9px;
+	z-index: 1001;
+	cursor: pointer;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.sp-slideshow input + label{
+    position: absolute;
+    bottom: 15px;
+	left: 50%;
+    width: 6px;
+	height: 6px;
+	display: block;
+	z-index: 1000;
+	border: 1px solid #fff;
+	border: 1px solid rgba(255,255,255,0.9);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: background-color linear 0.1s;
+    -moz-transition: background-color linear 0.1s;
+    -o-transition: background-color linear 0.1s;
+    -ms-transition: background-color linear 0.1s;
+    transition: background-color linear 0.1s;
+}
+.sp-slideshow input:checked + label{
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.sp-selector-1, .button-label-1{
+    margin-left: -36px;
+}
+
+.sp-selector-2, .button-label-2{
+    margin-left: -18px;
+}
+
+.sp-selector-4, .button-label-4{
+    margin-left: 18px;
+}
+
+.sp-selector-5, .button-label-5{
+    margin-left: 36px;
+}
+
+.sp-arrow {
+    position: absolute;
+	top: 50%;
+	width: 28px;
+	height: 38px;
+	margin-top: -19px;
+	display: none;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 1000;
+	background: transparent url(../img_museo_virtuale_inconsapevolezza_quotidiana/arrows2.png) no-repeat;
+	-webkit-transition: opacity linear 0.3s;
+    -moz-transition: opacity linear 0.3s;
+    -o-transition: opacity linear 0.3s;
+    -ms-transition: opacity linear 0.3s;
+    transition: opacity linear 0.3s;
+}
+.sp-arrow:hover{
+	opacity: 1;
+}
+.sp-arrow:active{
+	margin-top: -18px;
+}
+.sp-selector-1:checked ~ .sp-arrow.sp-a2,
+.sp-selector-2:checked ~ .sp-arrow.sp-a3,
+.sp-selector-3:checked ~ .sp-arrow.sp-a4,
+.sp-selector-4:checked ~ .sp-arrow.sp-a5 {
+    right: 15px;
+	display: block;
+	background-position: top right;
+}
+.sp-selector-2:checked ~ .sp-arrow.sp-a1,
+.sp-selector-3:checked ~ .sp-arrow.sp-a2,
+.sp-selector-4:checked ~ .sp-arrow.sp-a3,
+.sp-selector-5:checked ~ .sp-arrow.sp-a4 {
+    left: 15px;
+	display: block;
+	background-position: top left;
+}
+
+.sp-slideshow input:checked ~ .sp-content {
+    -webkit-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -moz-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -o-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -ms-transition: background-position linear 0.6s, background-color linear 0.8s;
+    transition: background-position linear 0.6s, background-color linear 0.8s;
+}
+
+.sp-slideshow input:checked ~ .sp-content .sp-parallax-bg {
+    -webkit-transition: background-position linear 0.7s;
+    -moz-transition: background-position linear 0.7s;
+    -o-transition: background-position linear 0.7s;
+    -ms-transition: background-position linear 0.7s;
+    transition: background-position linear 0.7s;
+}
+
+input.sp-selector-1:checked ~ .sp-content {
+    background-position: 0 0;
+	background: #eee url(../img_museo_virtuale_inconsapevolezza_quotidiana/inconsapevolezza1.png) no-repeat left;
+}
+
+input.sp-selector-2:checked ~ .sp-content {
+    background-position: -100px 0;
+	background-color: #eee;
+}
+
+input.sp-selector-3:checked ~ .sp-content {
+    background-position: -200px 0;
+	background: url(../img_museo_virtuale_inconsapevolezza_quotidiana/inconsapevolezza_cloud.jpg) no-repeat;
+}
+
+input.sp-selector-4:checked ~ .sp-content {
+    background-position: -300px 0;
+	background-color: #eee;
+
+}
+
+input.sp-selector-5:checked ~ .sp-content {
+    background-position: -400px 0;
+	background-color: #eee;
+}
+
+input.sp-selector-1:checked ~ .sp-content .sp-parallax-bg {
+    background-position: 0 0;
+}
+
+/*-- --*/
+
+input.sp-selector-2:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -200px 0;
+}
+
+input.sp-selector-3:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -400px 0;
+}
+
+input.sp-selector-4:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -600px 0;
+}
+
+input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -800px 0;
+}
+
+.sp-slider {
+    position: relative;
+	left: 0;
+    width: 500%;
+	height: 100%;
+	list-style: none;
+    margin: 0;
+	padding: 0;
+    -webkit-transition: left ease-in 0.8s;
+    -moz-transition: left ease-in 0.8s;
+    -o-transition: left ease-in 0.8s;
+    -ms-transition: left ease-in 0.8s;
+    transition: left ease-in 0.8s; 
+}
+
+.sp-slider > li {
+	width: 20%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 0 30px;
+    float: left;
+	opacity: 0.4;
+	
+    -webkit-transition: opacity ease-in 0.4s 0.8s;
+    -moz-transition: opacity ease-in 0.4s 0.8s;
+    -o-transition: opacity ease-in 0.4s 0.8s;
+    -ms-transition: opacity ease-in 0.4s 0.8s;
+    transition: opacity ease-in 0.4s 0.8s; 
+	}
+	
+	
+.sp-slider > li h3{
+	color: #000;
+	font-size:0.95em;
+	text-transform:uppercase;
+	}
+	.sp-slider > li .p1h3{ 	
+		padding:50px 0 0 5%;
+		}
+	
+	.sp-slider > li .p2h3{
+		margin:-22px 0 0 50%; 
+		position:relative;
+		padding:0 0 0 5%;
+		}	
+	
+	.sp-slider > li .p3h3{ 	
+		padding:150px 0 0 10%;
+		}
+		
+	.sp-slider > li .p1, 
+	.sp-slider > li .p2{
+	color: #666;
+	width:40%;
+	padding:30px 5% 0 5%;
+	font-size:0.85em;
+	line-height:1.8em;
+		}
+		
+.sp-slider > li .p3 {
+	width:70%;
+	padding:30px 15% 0 15%;
+	}
+.sp-slider > li p {
+	color: #222;
+	font-size:0.85em;
+	line-height:1.8em;
+	}
+	
+.sp-slider > li img{
+/*	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;	-ms-box-sizing: border-box;
+*/	/*box-sizing: border-box;*/
+	/*display: block;*/
+	margin: 0 auto;
+	padding: 0 0 50px 0;
+	max-height: 100%;
+	max-width: 100%;
+}
+input.sp-selector-1:checked ~ .sp-content .sp-slider {
+    left: 0;
+}
+
+input.sp-selector-2:checked ~ .sp-content .sp-slider {
+    left: -100%;
+}
+
+input.sp-selector-3:checked ~ .sp-content .sp-slider {
+    left: -200%;
+}
+
+input.sp-selector-4:checked ~ .sp-content .sp-slider {
+    left: -300%;
+}
+
+input.sp-selector-5:checked ~ .sp-content .sp-slider {
+    left: -400%;
+}
+
+input.sp-selector-1:checked ~ .sp-content .sp-slider > li:first-child,
+input.sp-selector-2:checked ~ .sp-content .sp-slider > li:nth-child(2),
+input.sp-selector-3:checked ~ .sp-content .sp-slider > li:nth-child(3),
+input.sp-selector-4:checked ~ .sp-content .sp-slider > li:nth-child(4),
+input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
+	opacity: 1;
+}
+
+
+
+@media screen and (max-width: 840px){
+	.sp-slideshow { height: 345px; }
+}
+@media screen and (max-width: 680px){
+	.sp-slideshow { height: 285px; }
+}
+@media screen and (max-width: 560px){
+	.sp-slideshow { height: 235px; }
+}
+@media screen and (max-width: 320px){
+	.sp-slideshow { height: 158px; }
+}
+
+
+
+/* ==========================================================================
+   MISSION
+   ========================================================================== */
+
+#mission{
+	background: url(../img_museo_virtuale_inconsapevolezza_quotidiana/statua_pensante2_museo_virtuale_inconsapevolezza_quotidiana2.jpg) no-repeat right #FFF; 
+	height:340px;
+	width:100%;
+	padding:50px 0 0 0;
+	}
+
+#mission h2{
+	margin:0 0 0 50px;
+	}
+
+#mission p{ 
+	margin:20px 0 0 7%; 
+	font-size:1.0em;
+	line-height:1.8em;
+	width:70%;
+	padding:0 5% 0 0;
+	}
+
+	
+	
+/* ==========================================================================
+   PARTECIPA
+   ========================================================================== */
+
+
+#partecipa{ 
+	background:#eee;
+	padding:50px 0 50px 0;
+	width:100%;
+	}
+
+	#partecipa > ul{
+		margin:0 0 0 -500px;
+		width:1000px;
+		position:relative;
+		left:50%;
+		display: inline-block;
+		}
+	
+		#quadro_partecipa, #quadro_visita, #quadro_gallery{
+			background-color:#4d4d4d;
+			}
+		
+		#quadro_partecipa, #quadro_gallery{
+			height:220px; 
+			width:220px;
+			}
+
+		#quadro_partecipa{
+			margin:40px 0 0 5%;
+			}
+
+		#quadro_gallery{
+			margin:40px 5% 0 0;
+			}
+
+		#quadro_visita{
+			height:300px; 
+			width:300px;
+			margin:0 50px 0 50px;
+			}
+	
+			#quadro_partecipa > h2{
+				margin:85px 0 30px -65px;
+				opacity:0.8;
+
+				}
+	
+			#quadro_gallery > h2{
+				margin:85px 0 30px -65px;
+				}
+	
+			#quadro_visita > h2{
+				margin:125px 0 30px -65px;
+				}
+			
+			#partecipa h2{ 	
+				font-size:0.95em;
+				width:130px;
+				border:2px solid #fff;
+				font-family: 'EB Garamond', sans-serif;
+				overflow:hidden;
+				
+				}
+				
+				.partecipa_normale, .partecipa_hover{
+					display:block;
+					width:120px;
+					padding:10px 5px 10px 5px;
+					text-align:center;
+					opacity:0.8;
+					}
+					
+				.partecipa_normale{
+					color:#fff;
+					}
+					
+				.partecipa_hover{
+					background-color:#ff5000;
+					color:#fff;
+					}
+					
+	#partecipa p{  
+		font-size:0.9em;
+		padding:0 20px;
+		text-align:center;
+		}	
+	
+	
+	
+
+
+	
+/* ==========================================================================
+   CONTATTI
+   ========================================================================== */
+
+#contatti{ 
+	height:500px;
+	width:100%;
+	}
+	
+	#contatti h2{ 
+	font-family: 'EB Garamond', sans-serif;
+	font-size:2.3em; 
+	padding:50px 0 10px 50px;
+	width:100%; letter-spacing:0.02em; 
+	height:50px; 
+	} 
+
+	#contatti p{ 
+	padding:5px 20px 20px 0;
+	font-size:1em; 
+	line-height:1.8em;  
+	color:#000;
+	width:43%;
+	margin:30px 0 0 7%;
+	overflow:hidden;
+	letter-spacing:1px;
+	} 
+	
+.clearline{clear:both; border-bottom:#FF5000 solid 2px; width:100px; margin:-5px 0 0 50px;}  
+.clearline2{clear:both; border-bottom:#FF5000 solid 2px; width:100px; margin:-10px 0 0 50px;}  
+.clearline3{clear:both; border-bottom:#FF5000 solid 2px; width:100px; margin:0 0 0 0;}  
+
+/* ===================
+   PARALLAX BG ================= */ 
+   
+   
+#parallax_bg1{
+	position: fixed;
+	top:-100px;
+	width:100%;
+	z-index:-2;
+
+	}
+
+#bg1{
+	position:absolute; 
+	top:0;
+	}
+	
+/* ===================
+   form ================= */
+   
+#errori{ padding:10px; margin:10px 0px; border-bottom:2px solid #ce5757; text-shadow:1px 1px 1px #000;  background:#e6abab; color:#fff;}
+#risultato{ padding:10px; margin:10px 0px; border-bottom:2px solid #6090cc;  text-shadow:1px 1px 1px #000; background:#abc6e6;color:#fff;}
+
+.info_form{color:#7f7d7d; font-style:italic; font-size:1em; margin-top:-12px;}
+
+#form_conttatti{   
+	margin:0 7% 0 0;    
+	padding:0 0 0 0;   
+	font-size:0.9em;
+	float: right; 
+	width:430px;
+	color:#4d4d4d; 
+	}
+
+
+
+
+	#nome, #cognome, #email, #oggetto, #messaggio{
+		padding:5px 10px 5px 10px; 
+		border:solid 1px #ccc;
+		margin:0 0 0 20px;  
+		display:block;
+		}
+		 
+	#cognome{margin: 0 10px 20px 0 !important; }
+
+	#nome, #cognome {
+		width:170px;   
+		}
+		
+	#oggetto, #email, #messaggio{width:380px;} 
+	#nome{float:left;}
+	#cognome{float:right;}
+	#messaggio{height:50px; max-height:110px; font-size:0.9em;} 
+	
+	#bottone_invia{padding:5px 10px 5px 10px; display:block; margin:10px 0 0 30px;}
+	#bottone_invia:hover{opacity:0.8;}
+	
+	.informativa_link{color:#4d4d4d; text-decoration:underline; margin:10px 0 0 0;}
+	.informativa_link:hover{text-decoration:none; color:#ff5000;} 
+	
+	#informativa{ margin:20px 0 0 30px;}  
+
+#museo_contatti_elenco{ 
+  width:410px;
+  float:left;
+  margin:30px 0 0 0;
+  font-size:0.8em;
+  }
+  
+  #museo_contatti_elenco > p{
+	  text-align:justify;
+	  font-size:1.1em;
+  }
+  
+    
+   
+/* ==========================================================================
+   IL MUSEO - contatti -informativa esterna
+   ========================================================================== */
+#informativa_dialog{
+	font-size:0.8em; 
+	position:fixed; 
+	z-index:999999; 
+	width:640px; 
+	height:410px; 
+	left:50%;
+	top:50%;
+	margin:-205px 0 0 -320px;
+	background-color:#FFFFFF;
+	}
+
+#informativa_dialog > p{
+	width:600px; 
+	height:200px;
+	overflow:auto;
+	background-color:#FFFFFF;
+	padding:20px 20px 30px 20px;
+	text-align:justify;
+	margin:20px 0 0 0;
+	}
+	
+#titolo_informativa{
+	padding:10px;
+	width:620px;
+	font-size:1.0em !important;
+	color:#FFFFFF;
+	}
+
+#pulsante_chiudi_informativa{
+	padding:10px;
+	width:100px;
+	margin:0 0 0 270px;
+	cursor:pointer;
+	color:#FFFFFF;}
+
+.filetto_informativa{
+	width:500px;
+	height:1px;
+	background-color:#A59A8C;
+	margin:15px 0 15px 70px;
+	}
+	
+
+/* ==========================================================================
+   Crediti
+   ========================================================================== */
+#crediti{ 
+	background:#eee;
+	height:100%;
+	width:100%; 
+	margin:0 !important;
+	}
+
+#crediti h2{
+	font-family: 'EB Garamond', sans-serif;
+	font-size:2.3em; 
+	padding:50px 0 10px 50px;
+	width:100%;
+	height:50px; 
+	}
+
+#crediti h3{
+	font-size:1em; 
+	padding:5px;
+	}
+
+
+#crediti p{ 
+	padding:5px 5% 0 0;
+	margin:35px 0 0 7%;
+	font-size:0.85em; 
+	line-height:1.6em;  
+	color:#000;
+	width:55%; 
+	height:16%;
+	border-right:1px solid #555;
+	} 
+
+
+.link_visita{
+	background:#fff; 
+	margin:140px 10% 0 5%;  
+	border:#eee solid 1px; 
+	width:12%;
+	padding:10px 2%;
+	color:#ff5000;
+	text-align:center;
+	outline: 2px solid #ff5000;
+	outline-offset: 5px;
+	font-family: 'EB Garamond', serif;
+	font-weight:700;
+	letter-spacing:1px;
+	opacity:1;
+	-webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+	}
+	 
+		.link_visita:hover{
+			background:#ff5000; 
+			color:#fff;
+			letter-spacing:0;
+			opacity:0.7;
+			outline: 2px solid #999;
+			outline-offset: 5px;
+		-webkit-transition: all 0.8s ease-in-out;
+		-moz-transition: all 0.8s ease-in-out;
+		-ms-transition: all 0.8s ease-in-out;
+		-o-transition: all 0.8s ease-in-out;
+		transition: all 0.8s ease-in-out;
+		}	 
+
+		.link_visita a{ color:#ff5000;}
+		.link_visita a:hover{ color:#fff;}
+
+/*#newsletter_form{ width:24%; margin:-23% 0 0 70%; height:39px;} 
+#email_newsletter{ width:55% ; padding:10px; margin:5px; }
+	#invia_newsletter{ 
+	background:#333;
+	 margin:-17px 0 0 -5px; 
+	 height:39px; 
+	 width:25%; 
+	 border:#333 solid 1px;
+	-webkit-transition: opacity ease 0.8s;
+	-moz-transition: opacity ease 0.8s;
+	-o-transition: opacity ease 0.8s;
+	-ms-transition: opacity ease 0.8s;
+	transition: opacity ease 0.8s; 
+
+	 }  
+
+	#invia_newsletter:hover{ 
+		opacity: 0.8;
+		background:#ff5000; 
+		border:#ff5000 solid 1px;
+		-webkit-transition: opacity ease 0.8s;
+		-moz-transition: opacity ease 0.8s;
+		-o-transition: opacity ease 0.8s;
+		-ms-transition: opacity ease 0.8s;
+		transition: opacity ease 0.8s;
+	 	}  
+*/
+#loghi_crediti{margin:50px 0 0 70px;}
+#museo_logo_polito{height:50px; padding:5px 0 50px 0; margin:10px 10px 0 0;}
+#museo_logo_unito{height:40px; padding:5px; margin:10px 10px 0 0;}
+#museo_logo_diecicento{height:10px; padding:5px; margin:20px 0 0 0;}
+
+
+#cc{
+	padding:20px 0 100px 20%;
+	background:#555;
+	}
+
+.museo_cc_testopiccolo{font-size:0.8em;}   
+#affianco_logo_cc{width:70%; font-size:0.8em !important; line-height:1.1em; float:left; text-align:center;}
+#museo_img_cc{ width:100px; height:25px; margin:0 30px 0 0;} 
+
+
+ .museo_contatti_social{ 
+ 	float:left;
+	margin:50px 0 10px -5px;
+	height:25px; 
+	width:25px;
+	padding:5px; 
+	}
+
+ .museo_contatti_social:hover{opacity:0.8;} 
+
+@media screen and (width: 1600px){
+#contenitore_immagini_defocus{
+	height:865px;
+	}
+@media screen and (width: 1440px){
+#contenitore_immagini_defocus{
+	height:779px;
+	}
+@media screen and (width: 1366px){
+#contenitore_immagini_defocus{
+	height:739px;
+	}
+@media screen and (width: 1280px){
+#contenitore_immagini_defocus{
+	height:692px ;
+	}
+
+@media screen and (width: 1200px){
+#contenitore_immagini_defocus{
+	height:649px;
+	}
+@media screen and (width: 1024px){
+#contenitore_immagini_defocus{
+	height:553px;
+	}
+}
+@media screen and (width: 1000px){
+#contenitore_immagini_defocus{
+	height:541px;
+	}
+}

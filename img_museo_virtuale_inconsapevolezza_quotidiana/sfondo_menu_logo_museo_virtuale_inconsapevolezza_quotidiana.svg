@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="229.236px" height="50px" viewBox="68.765 0 229.236 50" enable-background="new 68.765 0 229.236 50" xml:space="preserve"
+	>
+<g>
+	<g>
+		
+			<image overflow="visible" opacity="0.75" enable-background="new    " width="1338" height="400" xlink:href="B00C0ED2.png"  transform="matrix(0.1826 0 0 0.1816 60.2827 -11.8511)">
+		</image>
+		<g>
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="61.3765" y1="35.3242" x2="304.2681" y2="35.3242" gradientTransform="matrix(1 0 0 -1 0.1602 64.0352)">
+				<stop  offset="0" style="stop-color:#DE0B18"/>
+				<stop  offset="0.282" style="stop-color:#E02B17"/>
+				<stop  offset="0.75" style="stop-color:#E45212"/>
+			</linearGradient>
+			<polygon fill="url(#SVGID_1_)" points="304.428,60.924 61.537,60.924 61.537,-3.501 254.423,-3.501 			"/>
+		</g>
+	</g>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="254.3813" y1="38.8809" x2="297.8091" y2="38.8809" gradientTransform="matrix(1 0 0 -1 0.1602 64.0352)">
+		<stop  offset="0" style="stop-color:#DE0B18"/>
+		<stop  offset="0.282" style="stop-color:#E02B17"/>
+		<stop  offset="0.75" style="stop-color:#E45212"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M262.956,1.078c-0.397-0.548-1.057-0.905-1.796-0.905h-5.526c-0.602,0-1.092,0.477-1.092,1.063
+		c0,0.225,0.074,0.434,0.198,0.604l34.789,47.379c0.396,0.555,1.06,0.916,1.808,0.916h5.541c0.604,0,1.092-0.476,1.092-1.062
+		c0-0.216-0.069-0.418-0.185-0.587L262.956,1.078z"/>
+</g>
+</svg>

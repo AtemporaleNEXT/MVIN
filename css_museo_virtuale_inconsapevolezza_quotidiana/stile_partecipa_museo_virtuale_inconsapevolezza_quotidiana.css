@@ -1,0 +1,302 @@
+@import url("http://mvinconsapevolezzaquotidiana.org/css_museo_virtuale_inconsapevolezza_quotidiana/normalize_museo_virtuale_inconsapevolezza_quotidiana.css");
+@import url("http://mvinconsapevolezzaquotidiana.org/css_museo_virtuale_inconsapevolezza_quotidiana/main_museo_virtuale_inconsapevolezza_quotidiana.css");
+/*OFFLIMITS*/
+
+@media screen and (max-width:1199px){
+
+		#doppio_sostienici #sx_link h3, #doppio_sostienici #dx_link h3{
+			font-size:1.5em !important;
+			font-family:'EB Garamond', serif;
+			color:#333;
+			margin:30px 0 0 40px !important ;
+			}
+
+		#doppio_sostienici #sx_link p, #doppio_sostienici #dx_link p{
+			font-size:0.85em !important;
+			text-align:justify;
+			margin:30px 0 0 20% !important;
+			color:#4d4d4d;
+			width:80%;
+			}
+
+}
+
+
+
+/*PARTE SINISTRA TITOLO PARTECIPA E DESCRIZIONE */
+
+
+#partecipa_fisso{ 
+	width:40%;
+	position:fixed;
+	height:100%;
+	left:0; 
+	top:0;
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/prova_concorso_chaplin_mvin3.png) no-repeat top left #fff; 
+	} 
+	
+#partecipa_fisso h1{
+	font-family: 'EB Garamond';
+	font-size:2.5em;  
+	font-style: normal;
+	font-weight: 550;
+	margin:60px 0 0 0;   
+	padding:0 15% 0 15%;
+	width:70%;
+	color:#000;
+	text-transform:uppercase;
+	}
+
+#partecipa_fisso h2{
+	font-size:1.0em;  
+	margin:0 0 0 7%;
+	padding:0 15% 0 10px;
+	width:75%;
+	color:#000; 
+	font-style: normal;
+	}
+
+#partecipa_fisso p{ 
+	margin:20px 30px 0 15%; 
+	font-size:0.85em; 
+	line-height:1.7em; 
+	width:70%; 
+	text-align:justify;
+	color:#000; 
+	padding:0 0 20px 0 !important;
+	} 
+
+#img_fixed{
+	position:fixed;
+	top:-90px;
+	margin:0 0 0 680px; 
+	} 
+	
+.sfondo_rete_partecipa{
+	position:fixed;
+	top:15%;
+	}
+	
+/* MENU PALLE FISSE */
+
+#nav_partecipa{
+	width:50px; 
+	height:100px;
+	position:fixed;
+	left:92%; 
+	top:5%; 
+	} 
+	
+#nav_concorso, #nav_collabora, #nav_sostenici{
+	width:30px;
+	height:30px;
+	background: url(../img_museo_virtuale_inconsapevolezza_quotidiana/pallina_partecipa_colorata.png) no-repeat left;
+	opacity:0.7; 
+	}
+
+	#nav_concorso:hover, #nav_collabora:hover, #nav_sostenici:hover{
+-moz-transform: scale(1.2) translateX(1px) translateY(1px);
+-webkit-transform: scale(1.2) translateX(1px) translateY(1px);
+-o-transform: scale(1.2) translateX(1px) translateY(1px);
+-ms-transform: scale(1.2) translateX(1px) translateY(1px);
+transform: scale(1.2) translateX(1px) translateY(1px);	
+opacity:1;	}
+
+/*INIZIO PARTE DESTRA MOBILE */
+
+#parte_mobile{
+	width:60%;
+	padding:0 0 70px 0; 
+	}
+
+#concorso, #collabora, #sostenici{
+	width:100%;
+	background-color:#eee;
+	overflow:hidden;
+	height:400px;
+	}
+
+/*=======GENERALE=======*/
+
+.destaca_testo{
+	font-size:1em;
+	color:#000;
+	}
+
+#concorso > p, #collabora > p, #sostenici > p{
+	height:200px;
+	padding:100px;
+	font-size:1em;
+	text-height:1.6em;
+	text-align:justify !important;
+	background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo_partecipa_rete3.png) no-repeat center center;
+	}
+
+
+
+#concorso > p .destaca_testo2, #collabora > p span .destaca_testo2, #sostenici > p span .destaca_testo2{
+	font-size:1.2em !important;
+	color:#000 !important;
+	letter-spacing:2px !important;
+	}
+
+	#concorso p a, #collabora p a, #sostenici p a{
+		color:#ff5000;
+		text-decoration:underline;
+		}
+		
+	
+		#concorso p a:hover, #collabora p a:hover, #sostenici p a:hover{
+			color:#4d4d4d;
+			text-decoration:none;
+			}
+			
+#concorso > header, #collabora > header, #sostenici > header{
+	height:150px;
+	width:200px;
+	position:relative;
+	left:50%;
+	top:-400px;
+	margin:75px 0 0 -150px;
+	padding:50px;
+	background-color:#ffffff;
+	text-align:center;
+	}	
+
+	#concorso header h2, #collabora header h2, #sostenici header h2{
+		font-size:2em;
+		font-family: 'EB Garamond', serif;
+		font-weight:700;
+		color:#ff5000;
+		}			
+	
+	#concorso header h3, #collabora header h3, #sostenici header h3{
+		font-size:0.8em;
+		font-weight:normal;
+		margin:15px 0 10px 0;
+		}	
+		
+		
+		
+				
+/*=======CONCORSO=======*/
+
+
+#scarica_bando{
+	padding:30px 0 30px 0;
+	}
+	#scarica_bando > a{
+		width:400px;
+		text-align:center;
+		position:relative;
+		padding:10px;
+		left:50%;
+		margin:0 0 0 -211px;
+		border:1px solid #fff;
+		font-size:1.2em;
+		
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+		}
+
+	#scarica_bando > a:hover{
+		color:#ff5000;
+		background-color:#fff;
+		
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;		}
+
+
+/*======COLLABORA=======*/
+#team {
+	padding:50px 0 50px 0;
+	}
+
+	#team h3{
+		padding:0 100px 0 100px;
+		}
+		
+	#team p{
+		padding:30px 150px 0 150px;
+			font-size:0.8em !important;
+		}
+		
+		#team p #elenco_staff{
+			border-top:1px solid #4d4d4d;
+			padding:30px 0 0 0;
+			font-size:1.2em !important;
+			}
+
+
+
+
+/*======SOSTIENICI=======*/
+#doppio_sostienici{
+	height:300px;
+	overflow:hidden;
+	}
+
+	#doppio_sostienici #sx, #doppio_sostienici #dx{
+		position:relative;
+		width:50%;
+		padding:130px 0 0 0;
+		height:170px;
+		font-size:1.8em;
+		margin:-300px 0 0 0;
+		font-family: 'EB Garamond', serif !important;
+		}
+		
+		#doppio_sostienici #sx span{
+		display:block;
+		padding:10px 0 10px 10px;
+		border-bottom:1px solid #fff;
+		border-top:1px solid #fff;
+		border-left:1px solid #fff;
+		width:100px;
+		float:right;
+		}
+
+		#doppio_sostienici #dx span{
+		display:block;
+		padding:10px 10px 10px 0;
+		border-bottom:1px solid #fff;
+		border-top:1px solid #fff;
+		border-right:1px solid #fff;
+		width:100px;
+		}
+	
+	#doppio_sostienici #sx_link, #doppio_sostienici #dx_link{
+		width:50%;
+		height:300px;
+		font-size:1em;
+		}
+
+		#doppio_sostienici #sx_link h3, #doppio_sostienici #dx_link h3{
+			font-size:1.5em;
+			font-family:'EB Garamond', serif;
+			color:#333;
+			margin:30px 0 0 40px;
+			}
+
+		#doppio_sostienici #sx_link p, #doppio_sostienici #dx_link p{
+			font-size:0.85em;
+			text-align:justify;
+			margin:10px 50px 0 70px;
+			color:#4d4d4d;
+			}
+	
+		#doppio_sostienici #sx_link a, #doppio_sostienici #dx_link a{
+			font-size:1.1em;
+			color:#333;
+			text-decoration:underline;
+			}
+			
+			#doppio_sostienici #sx_link a:hover, #doppio_sostienici #dx_link a:hover{
+				text-decoration:none;
+				}

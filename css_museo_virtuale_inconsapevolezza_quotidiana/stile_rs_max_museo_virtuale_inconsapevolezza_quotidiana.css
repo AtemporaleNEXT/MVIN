@@ -1,0 +1,278 @@
+@import url("http://mvinconsapevolezzaquotidiana.org/css_museo_virtuale_inconsapevolezza_quotidiana/normalize_museo_virtuale_inconsapevolezza_quotidiana.css");
+@import url("http://mvinconsapevolezzaquotidiana.org/css_museo_virtuale_inconsapevolezza_quotidiana/main_museo_virtuale_inconsapevolezza_quotidiana.css");
+
+/*-------------------OFFLIMITS*/
+
+
+
+@media only screen and (max-height: 700px) {
+    /* Style adjustments for viewports that meet the condition */
+#index_logo{ 
+	width:300px; 
+	height:300px; 
+	margin:0 0 0 0;
+}
+
+}
+
+
+#menu_ilmuseo{color:#ff5000 !important;}
+/* ==========================================================================
+   IL MUSEO - layout parte sinistra
+   ========================================================================== */
+#museo_col_sx{
+	width:250px;
+	height:800px;
+	font-size:0.8em;
+	line-height:1.6em;
+	padding:50px 25px;
+	}
+
+#museo_col_sx_img{
+	width:250px;
+	height:250px;
+	}	
+
+#museo_titoletto_sx{
+	margin:0 0 20px 0;
+	font-size:1.2em;
+	}
+	
+#link_pubblicita_visita{ 
+	width:205px;
+	height:25px;
+	padding:5px 0 0 0;
+	margin:50px 0 0 20px;
+	text-decoration:underline;
+	color:#FFF;
+	}
+	
+	#link_pubblicita_visita:hover{text-decoration:none;}
+	
+	.sfumatura_bianca{
+		width:400px;
+		height:100%;
+		}
+	
+/* ==========================================================================
+   IL MUSEO - stili link
+   ========================================================================== */
+	
+	.link_arancione_sottolineato{color:#ff5000; text-decoration:underline;}
+		.link_arancione_sottolineato:hover{ text-decoration:none;}
+	
+	a.link_testo1{ color:#FF5000; 
+	overflow: hidden;	
+    border-bottom: 2px solid #ffa66b;
+	-webkit-transition: max-width 0.5s;
+	-moz-transition: max-width 0.5s;
+	transition: max-width 0.5s;
+	font-weight: 700;
+	}	
+	
+	a.link_testo1:hover{ color: #fff;
+	background: #FF5000;
+	content: attr(data-hover);
+	font-weight: 700;
+	}
+
+
+
+
+/* ==========================================================================
+   IL MUSEO - layout parte destra
+   ========================================================================== */
+
+#quadro_top_left, #quadro_top_right, #quadro_bottom_left, #quadro_bottom_right{
+	float:left;
+	overflow:hidden;
+	}
+	
+#quadro_top_left{margin:30px 30px 0 30px;}
+#quadro_top_right{margin:30px 0 0 0;}
+#quadro_bottom_left{margin:30px 30px 0 30px;}
+#quadro_bottom_right{margin:30px 0 0 0;}
+
+
+.museo_quadri_interno, .museo_quadri_copertina{ 
+	height:100%; 
+	width:100%; 
+	position:relative; 
+	top:0; 
+	left:0;
+	}
+
+.museo_quadri_interno{padding:30px; background-color:#FFF;}
+.museo_quadri_copertina{cursor:pointer; background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo_bianco_90_mv_inconsapevolezza.png) repeat;}
+
+.museo_quadri_copertina *{position:relative;}
+
+.museo_titoletti_copertina{font-size:1.2em; top:15%;}
+.museo_hr_copertina{margin:0 75px 0 75px; height:1px; top:20%; background-color:#A59A8C;}
+.museo_descrizione_copertina{font-size:0.8em; padding:0 30px; top:25%;}
+.museo_pulsante_copertina{padding:10px; top:40%; border:1px solid #A59A8C; width:150px; left:50%; margin:0 0 0 -85px;}
+.museo_titoletti_interni{ font-size:1.0em !important;}
+
+/* ==========================================================================
+   IL MUSEO - layout parte destra - inconsapevolezza
+   ========================================================================== */
+
+#museo_testo_inconsapevolezza{padding:0 30px 0 0; width:300px; font-size:0.9em; text-align:justify;}
+#quadro_top_left figure{width:60%;}
+#museo_didascalia_inconsapevolezza{margin:10px 0 0 0; font-size:0.7em;}
+
+
+/* ==========================================================================
+   IL MUSEO - layout parte destra - museo
+   ========================================================================== */
+
+#quadro_top_right > .museo_quadri_interno{ background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/statua_pensante_museo_virtuale_inconsapevolezza_quotidiana.jpg) no-repeat right top;
+}
+
+#museo_testo_colonne{ 
+  column-count: 2; 
+  column-gap: 30px; 
+  /* Firefox */
+-moz-column-count:2; 
+-moz-column-gap:30px; 
+  
+/* Safari and Chrome */
+-webkit-column-count:2; 
+-webkit-column-gap:30px;
+margin:0 280px 0 0;
+font-size:0.9em; 
+line-height:1.5em;
+text-align:justify;
+} 
+
+#museo_testo_colonne > span{color:#000000;}
+  
+#divSizer { 
+    position:   absolute; 
+    top:        0px; 
+    left:       0px; 
+    visibility: hidden; 
+} 
+
+/* ==========================================================================
+   IL MUSEO - layout parte destra - crediti
+   ========================================================================== */
+#menu_testo_crediti{
+	font-size:0.9em;
+	}
+	
+.museo_cc_testopiccolo{font-size:0.8em;}
+
+#testo_col_sx{margin:0 70px 5px 0; text-align:justify; font-size:0.9em;}
+
+#museo_img_cc{ width:150px; height:2.5em; margin:0 30px 0 0;}
+#affianco_logo_cc{font-size:0.9em !important;}
+#museo_logo_polito{height:30px; margin:25px 0 0 0;}
+#museo_logo_unito{height:40px; margin:25px 0 0 30px;}
+#museo_logo_diecicento{height:10px; margin:40px 0 0 40px;}
+
+
+/* ==========================================================================
+   IL MUSEO - layout parte destra - contatti
+   ========================================================================== */
+#errori{ padding:10px; margin:10px 0px; border-bottom:2px solid #ce5757; text-shadow:1px 1px 1px #000;  background:#e6abab; color:#fff;}
+#risultato{ padding:10px; margin:10px 0px; border-bottom:2px solid #6090cc;  text-shadow:1px 1px 1px #000; background:#abc6e6;color:#fff;}
+
+.info_form{ color:#7f7d7d; font-style:italic; font-size:14px; margin-top:-12px;}
+
+#form_conttatti{  
+	margin:30px 0 0 30px;
+	padding:0 0 0 30px;
+	border-left:1px solid #A59A8C;
+	font-size:0.9em;
+	float:left;
+	width:500px;
+	display:inline-block;
+	}
+
+	#nome, #cognome, #email, #oggetto, #messaggio{
+		padding:5px 10px 5px 10px; 
+		border:solid 1px #ccc;
+		 margin-bottom:10px; 
+		 display:block;
+		 }
+	#nome, #cognome {
+		width:215px; 
+		float:left; 
+		margin-top:10px;
+		}
+	#oggetto, #email, #messaggio{width:480px;}
+	#nome{float:left;}
+	#cognome{float:right;}
+	#messaggio{height:50px; max-height:110px;}
+	#bottone_invia{padding:5px 10px 5px 10px; display:block;}
+	#bottone_invia:hover{opacity:0.8;}
+	.informativa_link{color:#ff5000; text-decoration:underline;}
+	.informativa_link:hover{text-decoration:none;}
+
+#museo_contatti_elenco{
+  width:410px;
+  float:left;
+  margin:30px 0 0 0;
+  font-size:0.8em;
+  }
+  
+  #museo_contatti_elenco > p{
+	  text-align:justify;
+	  font-size:1.1em;
+  }
+  
+ .museo_contatti_social{ 
+ 	float:left;
+margin:20px 20px 20px 0;
+}
+
+ .museo_contatti_social:hover{opacity:0.8;} 
+ 
+/* ==========================================================================
+   IL MUSEO - layout parte destra - contatti -informativa esterna
+   ========================================================================== */
+#informativa_dialog{
+	font-size:0.8em; 
+	position:absolute; 
+	z-index:999999; 
+	width:640px; 
+	height:410px; 
+	left:50%;
+	top:50%;
+	margin:-205px 0 0 -320px;
+	background-color:#FFFFFF;
+	}
+
+#informativa_dialog > p{
+	width:600px; 
+	height:200px;
+	overflow:auto;
+	background-color:#FFFFFF;
+	padding:20px 20px 30px 20px;
+	text-align:justify;
+	margin:20px 0 0 0;
+	}
+	
+#titolo_informativa{
+	padding:10px;
+	width:620px;
+	font-size:1.0em !important;
+	color:#FFFFFF;
+	}
+
+#pulsante_chiudi_informativa{
+	padding:10px;
+	width:100px;
+	margin:0 0 0 270px;
+	cursor:pointer;
+	color:#FFFFFF;}
+
+.filetto_informativa{
+	width:500px;
+	height:1px;
+	background-color:#A59A8C;
+	margin:15px 0 15px 70px;
+	background-color:
+	}
+	

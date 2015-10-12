@@ -1,0 +1,222 @@
+/* ==========================================================================
+   index
+   ========================================================================== */
+#colonna_centrale{ 
+	width:300px; 
+	margin:0 0 0 -150px;
+	}
+
+#index_logo{ 
+	width:300px;
+	height:300px;
+	margin:30% 0 0 0;
+	}
+	
+	#index_logo img{
+		width:300px;
+		height:300px;}
+
+#index_scritta{font-size:0.8em; letter-spacing:0.03em; line-height:1.5em;}
+
+#index_link_fb{font-size:0.9em; letter-spacing:0.03em; line-height:1.2em; margin:30px 0 0 0;}
+
+#index_link_fb:hover{text-decoration:none;}
+
+#index_bg{
+background: #e5e5e5; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIzNSUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2NSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4MCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #e5e5e5 35%, #ffffff 50%, #ffffff 65%, #e5e5e5 80%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(35%,#e5e5e5), color-stop(50%,#ffffff), color-stop(65%,#ffffff), color-stop(80%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e5e5e5 35%,#ffffff 50%,#ffffff 65%,#e5e5e5 80%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e5e5e5 35%,#ffffff 50%,#ffffff 65%,#e5e5e5 80%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e5e5e5 35%,#ffffff 50%,#ffffff 65%,#e5e5e5 80%); /* IE10+ */
+background: linear-gradient(to bottom, #e5e5e5 35%,#ffffff 50%,#ffffff 65%,#e5e5e5 80%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-8 */
+background-attachment:fixed;}
+
+.index_grafica{
+	width:100%;
+	height:100%;
+	}
+
+#index_sfondo_palle_1{background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondoa_museo_virtuale_inconsapevolezza_quotidiana.png) no-repeat center center;}
+#index_sfondo_palle_2{background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondob_museo_virtuale_inconsapevolezza_quotidiana.png) no-repeat center center;}
+#index_sfondo_palle_3{background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondoc_museo_virtuale_inconsapevolezza_quotidiana.png) no-repeat center center;}
+#index_sfondo_palle_4{background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondod_museo_virtuale_inconsapevolezza_quotidiana.png) no-repeat center center;}
+#index_sfondo_relazioni_1{background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo1_museo_virtuale_inconsapevolezza_quotidiana.png) no-repeat center center;}	
+#index_sfondo_relazioni_2{background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo2_museo_virtuale_inconsapevolezza_quotidiana.png) no-repeat center center;}	
+#index_sfondo_relazioni_3{background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo3_museo_virtuale_inconsapevolezza_quotidiana.png) no-repeat center center;}	
+#index_sfondo_relazioni_4{background:url(../img_museo_virtuale_inconsapevolezza_quotidiana/sfondo4_museo_virtuale_inconsapevolezza_quotidiana.png) no-repeat center center;}	
+
+/* ==========================================================================
+   IL MUSEO 
+   ========================================================================== */
+
+#header_image{height:65px;}
+
+
+
+.museo_border_arancia{border-bottom: solid #FF5000 1px;}
+
+#museo_t1, #museo_t2, #museo_t3{width:28%;}
+
+#museo_t1{margin: 0 0 0 5%;}
+	
+#museo_t2{margin:0 3% 0 3%;}
+	
+#museo_t3{margin: 0 5% 0 0;}
+	
+	a.link_testo1{ color:#FF5000; 
+	overflow: hidden;	
+    border-bottom: 2px solid #ffa66b;
+	-webkit-transition: max-width 0.5s;
+	-moz-transition: max-width 0.5s;
+	transition: max-width 0.5s;
+	font-weight: 700;
+	}	
+	
+	a.link_testo1:hover{ color: #fff;
+	background: #FF5000;
+	content: attr(data-hover);
+	font-weight: 700;
+	}
+	
+
+#museo_sf_header{background:#FFF;}
+
+/*-----Inizio slide Centrale --------------------
+-------------------------------------------------*/
+
+#museo_pg_slide{
+	background:#FF5000;
+	height:300px;
+	width:100%;
+	overflow:hidden;
+	margin:20px 0 0 0;
+	}
+
+#museo_ombra{height:300px;}
+
+
+#museo_scroller{overflow:hidden; width:4000px; height:300px;}
+
+#museo_pg_slide figure{
+	height:300px;
+	width:2000px;
+	background:#FF5000;
+	}
+
+#museo_inconsapevolezza_quotidiana{top:0px; left:0px; z-index:11;}
+
+#museo_mission{top:-300px; left:2000px; z-index:12;}
+
+#museo_contatti{top:-600px; left:2000px; z-index:13;}
+
+#museo_privacy_credits{top:-900px; left:2000px; z-index:14;}
+	
+.museo_fig{
+	width:40%;
+	height:100%;
+	margin:0 0 0 0;
+	}
+	
+.museo_fig_caption{
+	width:400px;
+	height:100px;
+	margin:100px 0 0 150px;
+}
+
+.museo_fig_caption2{
+	width:285px;
+	margin:0 0 0 0;
+}
+
+.museo_fig_s{
+	width:40%;
+	height:100%;
+	margin:0 0 0 0;
+	}
+
+.museo_mission_testo1, .museo_mission_testo2{width:285px;}
+
+.museo_mission_testo1{
+	margin:20px 0 0 73px;
+	}
+	
+.museo_mission_testo2{
+	margin:72px 20px 0 50px;
+	}
+
+#museo_navigazione{ 
+	height:30px; 
+	margin:0 0 0 -500px !important; 
+	padding:0 !important;
+	width:1000px;
+	display:inline-block;
+	top:-30px;
+	}
+	
+	#museo_navigazione li{
+		width:250px;
+		cursor:pointer;
+		padding:5px 0 4px 0;
+		color:#A59A8C;
+		}
+
+	#museo_navigazione li:hover, #museo_navigazione li:focus{
+	 color:#ff5000;}	
+	
+#linea_temporale{
+	background-color:#F0E0CA; 
+	height:30px; 
+	overflow:hidden;
+	}
+
+	#linea_temporale_completa{
+		height:30px; 
+		margin:0px 0 0px 0; 
+		}
+
+#linea_temporale_seletore{width:100%; height:100%;}		
+
+.testo_bianco{color:#FFFFFF !important;}
+.testo_bianco:hover, .testo_bianco:focus{text-decoration:underline;}
+
+
+/*
+/*-----Fine navigazione slide Centrale --------------------
+-------------------------------------------------*/
+/*-----Inizio bottom page --------------------
+-------------------------------------------------*/
+#testo_pubblicita_visita{
+	margin:20px 0 5px 73px;
+	}
+	
+#link_pubblicita_visita{ 
+	width:205px;
+	height:29px;
+	padding:3px 0 0 0;
+	margin:0 100px 0 0;
+	}
+	 a#link_pubblicita_visita{text-decoration:underline; color:#FFF;}
+	 a#link_pubblicita_visita:hover{text-decoration:none; color:#FFF;}
+
+
+
+
+
+
+/*-------------------OFFLIMITS*/
+
+
+
+@media only screen and (max-height: 700px) {
+    /* Style adjustments for viewports that meet the condition */
+#index_logo{ 
+	width:300px; 
+	height:300px; 
+	margin:0 0 0 0;
+}
+
+}

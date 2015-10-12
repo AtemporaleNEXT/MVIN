@@ -1,0 +1,66 @@
+/* ==========================================================================
+   IL MUSEO - layout 2
+   ========================================================================== */
+#museo_col_sx{
+	width:250px;
+	height:800px;
+	font-size:0.8em;
+	padding:50px 25px;
+	}
+
+#museo_col_sx_img{
+	width:250px;
+	height:250px;
+	}	
+
+#museo_titoletto_sx{
+	margin:0 0 50px 0;
+	font-size:1.2em;
+	}
+	
+#link_pubblicita_visita{ 
+	width:205px;
+	height:25px;
+	padding:5px 0 0 0;
+	margin:50px 0 0 20px;
+	text-decoration:underline;
+	color:#FFF;
+	}
+	
+	#link_pubblicita_visita:hover{text-decoration:none;}
+
+
+#quadro_top_left, #quadro_top_right, #quadro_bottom_left, #quadro_bottom_right{
+	float:left;
+	overflow:hidden;
+	}
+	
+#quadro_top_left{margin:30px 30px 0 30px;}
+#quadro_top_right{margin:30px 0 0 0;}
+#quadro_bottom_left{margin:30px 30px 0 30px;}
+#quadro_bottom_right{margin:30px 0 0 0;}
+
+
+.museo_quadri_interno, .museo_quadri_copertina{ 
+	height:100%; 
+	width:100%; 
+	position:relative; 
+	top:0; 
+	left:0;
+	}
+
+.museo_quadri_interno{background-color:#ccc; padding:20px;}
+.museo_quadri_copertina{cursor:pointer;}
+
+.museo_quadri_copertina *{position:relative;}
+
+.museo_titoletti_copertina{font-size:1.2em; top:15%;}
+.museo_hr_copertina{margin:0 75px 0 75px; height:1px; top:20%; background-color:#A59A8C;}
+.museo_descrizione_copertina{font-size:0.8em; padding:0 30px; top:25%;}
+.museo_pulsante_copertina{padding:10px; top:40%; border:1px solid #A59A8C; width:150px; left:50%; margin:0 0 0 -85px;}
+
+
+
+#museo_testo_inconsapevolezza{padding:0 20px 0 0; width:300px; font-size:0.9em; text-align:justify;}
+#quadro_top_left figure{width:60%;}
+#museo_didascalia_inconsapevolezza{margin:10px 0 0 0; font-size:0.7em;}
